@@ -6,7 +6,7 @@
 <img src="assets/gero.png" alt="logo" width="300" height="100" > </div>
 <br/>
 
-<img src="https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/assets/51385738/1f6a7d6f-e8e1-42aa-b70e-819359a6114e" title="Divisor" style="max-height:60px; width:auto; display:block;">
+<img src="assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 <br/>
 
@@ -22,7 +22,7 @@ incentivar e prestar auxílio a projetos
 trabalhando com a ODS 3 (Saúde e
 Bem-estar).
 
-<img src="https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/assets/51385738/1f6a7d6f-e8e1-42aa-b70e-819359a6114e" title="Divisor" style="max-height:60px; width:auto; display:block;">
+<img src="assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 ## Enactus
 A Enactus é uma organização
@@ -35,7 +35,7 @@ parte desse complexo e grande ambiente,
 que no momento conta com três projetos
 principais.
 
-<img src="https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/assets/51385738/1f6a7d6f-e8e1-42aa-b70e-819359a6114e" title="Divisor" style="max-height:60px; width:auto; display:block;">
+<img src="assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 ## Rodando Localmente o Git Pages
 
@@ -55,8 +55,9 @@ $ mkdocs serve
 ```
 A documentação local poderá ser acessada por: http://127.0.0.1:8000/ ou http://localhost:8000/
 
+<img src="assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
+
 ## Equipe
-<img src="https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/assets/51385738/1f6a7d6f-e8e1-42aa-b70e-819359a6114e" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 | Disciplina | Matricula | Nome                             | Github                                                  |
 |------------|-----------|----------------------------------|---------------------------------------------------------|

@@ -1,0 +1,83 @@
+site_name: "GEROcuidado"
+repo_name: "2024-1-GEROcuidado-Doc"
+repo_url: "https://github.com/fga-eps-mds/2024-1-GEROcuidado-Doc"
+docs_dir: docs
+
+theme:
+  name: "material"
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.pat
+    - navigation.sections
+    - navigation.expand
+  palette:
+    # Palette toggle for automatic mode
+    #- media: "(prefers-color-scheme)"
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  language: "pt"
+  logo: "assets/gero.png"
+  favicon: "assets/favicon.ico"
+
+  palette:
+    primary: "#fff"
+    accent: "#0B4D9B"
+
+
+extra_css:
+  - stylesheets/styles.css
+
+nav:
+  - Home:
+    - Sobre: index.md
+  - Lean Inception:
+    - Lean Inception: lean_inception/lean_inception.md
+  # - Planejamento:
+  #   - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
+  #   - Quadro de conhecimento: planejamento/quadro_conhecimento.md
+  #   - Quadro de pareamento: planejamento/quadro_pareamento.md
+  #   - Plano de contribuição: planejamento/plano_de_contribuicao.md
+  #   - Padrões da comunidade: planejamento/padroes_da_comunidade.md
+  #   - Metodologias: planejamento/metodologia.md
+  # - Dojos:
+  #   - Cronograma Dojos: treinamentos/cronograma_dojos.md
+  # - Reuniões:
+  #   - Semana 1:
+  #     - Reunião EPS 04/09: reunioes/Semana_1/reuniao_EPS_04_09.md
+  #   - Semana 2:
+  #     - Reunião Geral 12/09: reunioes/Semana_2/reuniao_Geral_12_09.md
+  #     - Reunião Lean Inception Dia 1 17/09: reunioes/Semana_2/reuniao_Lean_Inception_Dia1_17_09.md
+  #     - Reunião PO 13/09: reunioes/Semana_2/reuniao_PO_13_09.md
+  # - Sprints:
+  #   - Sprint 1:
+  #     - Planning: reunioes/Sprint_1/planning.md
+  #     - Reunião PO 18/10: reunioes/Sprint_1/reuniao_PO_18_10.md
+  #     - Reunião Pareamento 20/10: reunioes/Sprint_1/reuniao_Pareamento_20_10.md
+  #     - Reunião Pareamento 21/10: reunioes/Sprint_1/reuniao_Pareamento_21_10.md
+  #     - Review: reunioes/Sprint_1/review.md
+  #   - Sprint 2:
+  #     - Planning: reunioes/Sprint_2/planning_sprint_2.md
+  #     - Review: reunioes/Sprint_2/review.md
+
+
+plugins:
+  - search
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.snippets
