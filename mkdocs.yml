@@ -44,8 +44,8 @@ extra_css:
 nav:
   - Home:
     - Sobre: index.md
-  - Lean Inception:
-    - Lean Inception: lean_inception/lean_inception.md
+  # - Lean Inception:
+  #   - Lean Inception: lean_inception/lean_inception.md
   # - Planejamento:
   #   - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
   #   - Quadro de conhecimento: planejamento/quadro_conhecimento.md
