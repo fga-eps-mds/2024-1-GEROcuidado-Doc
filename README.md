@@ -3,10 +3,10 @@
 <br/>
 
 <div align="center">
-<img src="assets/gero.png" alt="logo" width="300" height="100" > </div>
+<img src="docs/assets/gero.png" alt="logo" width="300" height="100" > </div>
 <br/>
 
-<img src="assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
+<img src="docs/assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 <br/>
 
@@ -22,7 +22,7 @@ incentivar e prestar auxílio a projetos
 trabalhando com a ODS 3 (Saúde e
 Bem-estar).
 
-<img src="assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
+<img src="docs/assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 ## Enactus
 A Enactus é uma organização
@@ -35,7 +35,7 @@ parte desse complexo e grande ambiente,
 que no momento conta com três projetos
 principais.
 
-<img src="assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
+<img src="docs/assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 ## Rodando Localmente o Git Pages
 
@@ -44,18 +44,20 @@ principais.
 - pip
 - mkdocs
 
-### Uso
-Primeiramente é necessário instalar o tema material do mkdocs.
+### Como rodar
+Instale o MKDocs com o comando:
+
 ```terminal
-$ pip install mkdocs-material
+$ pip install -r requirements.txt
 ```
-Após sua instalação execute o comando:
+Após a instalação execute o comando:
+
 ```terminal
 $ mkdocs serve
 ```
 A documentação local poderá ser acessada por: http://127.0.0.1:8000/ ou http://localhost:8000/
 
-<img src="assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
+<img src="docs/assets/line.png" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 ## Equipe
 
