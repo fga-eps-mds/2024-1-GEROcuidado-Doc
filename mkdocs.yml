@@ -51,23 +51,19 @@ nav:
     - Lean Inception: lean_inception/lean_inception.md
   # - Dojos:
   #   - Cronograma Dojos: treinamentos/cronograma_dojos.md
-  # - Reuniões:
-  #   - Semana 1:
-  #     - Reunião EPS 04/09: reunioes/Semana_1/reuniao_EPS_04_09.md
-  #   - Semana 2:
-  #     - Reunião Geral 12/09: reunioes/Semana_2/reuniao_Geral_12_09.md
-  #     - Reunião Lean Inception Dia 1 17/09: reunioes/Semana_2/reuniao_Lean_Inception_Dia1_17_09.md
-  #     - Reunião PO 13/09: reunioes/Semana_2/reuniao_PO_13_09.md
   # - Sprints:
   #   - Sprint 1:
-  #     - Planning: reunioes/Sprint_1/planning.md
-  #     - Reunião PO 18/10: reunioes/Sprint_1/reuniao_PO_18_10.md
-  #     - Reunião Pareamento 20/10: reunioes/Sprint_1/reuniao_Pareamento_20_10.md
-  #     - Reunião Pareamento 21/10: reunioes/Sprint_1/reuniao_Pareamento_21_10.md
-  #     - Review: reunioes/Sprint_1/review.md
+  #     - Fazer um documento explicando a primeira semana
+  #     que foi divisão de grupos
   #   - Sprint 2:
-  #     - Planning: reunioes/Sprint_2/planning_sprint_2.md
-  #     - Review: reunioes/Sprint_2/review.md
+  #     - Planning: sprints/sprint_2/planning_sprint_2.md
+  #     - Reunião PO 27/03: sprints/sprint_2/reuniao_po_2703.md
+  #     - Review: sprints/sprint_2/review.md
+  #   - Sprint 3:
+  #     - Planning: sprints/sprint_3/planning_sprint_3.md
+  #     - Reunião PO 03/04: sprints/sprint_3/reuniao_po_0304.md
+  #     - Reunião PO 04/04:  sprints/sprint_3/reuniao_po_0404.md
+  #     - Review: sprints/sprint_3/review.md
 
 
 plugins:
