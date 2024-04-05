@@ -39,15 +39,16 @@ extra_css:
 nav:
   - Home:
     - Sobre: index.md
-  # - Lean Inception:
-  #   - Lean Inception: lean_inception/lean_inception.md
   - Planejamento:
     - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
-  #   - Quadro de conhecimento: planejamento/quadro_conhecimento.md
-  #   - Quadro de pareamento: planejamento/quadro_pareamento.md
-  #   - Plano de contribuição: planejamento/plano_de_contribuicao.md
-  #   - Padrões da comunidade: planejamento/padroes_da_comunidade.md
-  #   - Metodologias: planejamento/metodologia.md
+    - Guia de instalação WSL2: planejamento/guia_instalacao_wsl2.md
+      #   - Quadro de conhecimento: planejamento/quadro_conhecimento.md
+      #   - Quadro de pareamento: planejamento/quadro_pareamento.md
+      #   - Plano de contribuição: planejamento/plano_de_contribuicao.md
+      #   - Padrões da comunidade: planejamento/padroes_da_comunidade.md
+      #   - Metodologias: planejamento/metodologia.md
+  - Lean Inception:
+    - Lean Inception: lean_inception/lean_inception.md
   # - Dojos:
   #   - Cronograma Dojos: treinamentos/cronograma_dojos.md
   # - Reuniões:
