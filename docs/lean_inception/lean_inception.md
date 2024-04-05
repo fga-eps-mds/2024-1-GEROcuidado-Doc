@@ -1,5 +1,11 @@
 # Lean Inception
 
+## Histórico de versões
+
+|    Data    | Versão |      Descrição       |                    Autor                     |
+|:----------:|:------:|:--------------------:|:--------------------------------------------:|
+| 05/04/2024 |  1.0   | Criação do documento | [Amanda Nobre](https://github.com/AmandaNbr) |
+
 ## Sobre
 
 A metodologia Lean Inception, concebida por Paulo Caroli, é uma abordagem inovadora que visa alcançar o Minimum Viable Product (MVP), ou Produto Mínimo Viável, de forma colaborativa e eficiente. O próprio nome, "Lean Inception", sugere sua natureza enxuta e ágil, refletindo uma fase inicial em que as partes de negócios e técnicas se unem em um curto período de tempo. Esse período costuma ser limitado a uma semana, idealmente com uma carga horária de 40 horas semanais dedicadas ao processo. Um dos pilares fundamentais desta metodologia é a constante participação do cliente, o que a torna verdadeiramente colaborativa.

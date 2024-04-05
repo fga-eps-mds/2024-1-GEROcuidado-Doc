@@ -1,13 +1,10 @@
 # Como contribuir
 
-Antes de fazer qualquer alteração no repositório, crie uma issue e se responsabilize por essa alteração. Atente-se a [política de branchs](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/politicas/branches.md)
-e a [política de commits](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/politicas/commits.md).
-
 ## Histórico de versões
 
-|    Data    | Versão |                  Descrição                   |                     Autor                      |
-|:----------:|:------:|:--------------------------------------------:|:----------------------------------------------:|
-| 30/08/2021 |  0.1   |                Envio inicial                 | [Amanda Nobre](https://github.com/AmandaNbr)   |
+|    Data    | Versão |      Descrição       |                    Autor                     |
+|:----------:|:------:|:--------------------:|:--------------------------------------------:|
+| 05/04/2024 |  1.0   | Criação do documento | [Amanda Nobre](https://github.com/AmandaNbr) |
 
 ## Issues
 

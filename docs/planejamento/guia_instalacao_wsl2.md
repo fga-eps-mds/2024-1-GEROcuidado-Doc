@@ -1,5 +1,11 @@
 # Guia de instalação WSL2
 
+## Histórico de versões
+
+|    Data    | Versão |      Descrição       |                    Autor                     |
+|:----------:|:------:|:--------------------:|:--------------------------------------------:|
+| 05/04/2024 |  1.0   | Criação do documento | [Amanda Nobre](https://github.com/AmandaNbr) |
+
 ### Habilitando WSL
 
 Utilizaremos o Windows Subsystem for Linux *(versão 2)* como nosso ambiente de desenvolvimento. O primeiro passo é **habilitar o WSL** no seu computador. Para isso, abra uma janela do PowerShell com permissões de administrador e execute esse comando:
