@@ -37,8 +37,7 @@ extra_css:
   - stylesheets/styles.css
 
 nav:
-  - Home:
-    - Sobre: index.md
+  - Home: index.md
   - Planejamento:
     - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
     - Guia de instalação WSL2: planejamento/guia_instalacao_wsl2.md
@@ -48,8 +47,14 @@ nav:
       #   - Metodologias: planejamento/metodologia.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md
-  # - Dojos:
-  #   - Cronograma Dojos: treinamentos/cronograma_dojos.md
+    - Kick-off: lean_inception/kickoff.md
+    - Dia 1: lean_inception/dia_1.md
+    - Dia 2: lean_inception/dia_2.md
+    - Dia 3: lean_inception/dia_3.md
+    - Dia 4: lean_inception/dia_4.md
+  - Dojôs:
+    - Cronograma Dojôs: dojos/cronograma.md
+    - Dojô Git/GitHub: dojos/git.md
   # - Sprints:
   #   - Sprint 1:
   #     - Fazer um documento explicando a primeira semana
