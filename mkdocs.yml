@@ -42,7 +42,7 @@ nav:
     - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
     - Guia de instalação WSL2: planejamento/guia_instalacao_wsl2.md
     - Guia de contribuição: planejamento/guia_contribuicao.md
-      #   - Quadro de conhecimento: planejamento/quadro_conhecimento.md
+    - Quadro de conhecimento: planejamento/quadro_de_conhecimentos.md
       #   - Quadro de pareamento: planejamento/quadro_pareamento.md
       #   - Metodologias: planejamento/metodologia.md
   - Lean Inception:
