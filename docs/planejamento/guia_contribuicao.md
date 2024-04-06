@@ -47,6 +47,7 @@ Padronizar evita confusões e torna mais fácil a leitura e a procura por artefa
 ### Type
 
 O parâmetro _type_ sinaliza qual o principal tipo de modificação realizada. Por padrão, utilizamos as seguintes palavras chaves:
+
 |   _Type_   |                           Significado                           |
 |:----------:|:---------------------------------------------------------------:|
 |   _feat_   |              Novas funcionalidades para o usuário               |
@@ -114,6 +115,7 @@ Por padrão, as mensagens de _commits_ devem seguir o seguinte formato:
 
 ### Type
 Assim como para as _branches_, _type_ descreve o tipo da modificação contemplada pelo _commit_. Por padrão, utilizamos as seguintes palavras chaves:
+
 |   _Type_   |                           Significado                           |
 |:----------:|:---------------------------------------------------------------:|
 |   _feat_   |              Novas funcionalidades para o usuário               |

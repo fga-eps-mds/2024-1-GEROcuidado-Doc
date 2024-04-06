@@ -4,7 +4,7 @@
 
 |    Data    | Versão |      Descrição       |                    Autor                     |
 |:----------:|:------:|:--------------------:|:--------------------------------------------:|
-| 05/04/2024 |  1.0   | Criação do documento | [Amanda Nobre](https://github.com/AmandaNbr) |
+| 01/04/2024 |  1.0   | Criação do documento | [Amanda Nobre](https://github.com/AmandaNbr) |
 
 ## Introdução
 O quadro de disponibilidade é uma ferramenta amplamente utilizada que permite visualizar a disponibilidade dos membros de equipe em um determinado projeto. Aqui inserimos o dia e horário disponível de cada membro e posteriormente elaboramos um mapa de calor.
