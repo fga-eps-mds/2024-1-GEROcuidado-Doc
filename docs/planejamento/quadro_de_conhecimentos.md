@@ -21,3 +21,5 @@ O quadro da semana 2 servirá para ver com que tecnologias já estão familiariz
 
 
 ## Quadro de Conhecimento da Sprint 2 (06/04):
+
+<iframe width="2000" height="500" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQq3hTIW_orm5XUE0Uji0mlYpX_zrKtMFz_jGswC0inAU1d0PCRfCVq_6hNmRaGxW80b-Kf7LKiy4S2/pubhtml?gid=587225160&single=true"></iframe>
