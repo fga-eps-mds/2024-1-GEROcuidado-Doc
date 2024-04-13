@@ -2,7 +2,7 @@
 
 |    Data    | Versão |      Descrição       |                                                        Autor                                                     |
 |:----------:|:------:|:--------------------:|:----------------------------------------------------------------------------------------------------------------:|
-| 03/04/2024 |  1.0   | Criação do documento | [Gabriel Monteiro (https://github.com/GabrielSMonteiro) e Natalia Rodrigues (https://github.com/Natyrodrigues)] |
+| 12/04/2024 |  1.0   | Criação do documento | [Gabriel Monteiro (https://github.com/GabrielSMonteiro) e Natalia Rodrigues (https://github.com/Natyrodrigues)] |
 
 ## Pauta
 
