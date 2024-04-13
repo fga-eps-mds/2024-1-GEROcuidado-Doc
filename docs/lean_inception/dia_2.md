@@ -23,3 +23,19 @@ Foram criadas descrições detalhadas das pessoas que utilizaram a nossa aplica�
 #### Persona 3 - Cuidador Formal (homecare)
 
 ![image](../assets/GEROpessoa3.PNG)
+
+## Jornadas de Usuário
+A viagem de usuário serve para visualizar como um usuário interage com a aplicação passo a passo, desde a primeira interação até a conclusão de suas tarefas, serve também para ver em que contexto se vai usar, onde e quando. Ajuda-nos a identificar as necessidades do utilizador e possíveis problemas durante a sua utilização. Ajuda a ter uma visão completa da experiência do usuário.
+
+### Jornadas de Usuário do GEROcuidado
+#### Jornada de Usuário 1
+
+![image](../assets/GEROjornada1.PNG)
+
+#### Jornada de Usuário 2
+
+![image](../assets/GEROjornada2.PNG)
+
+#### Jornada de Usuário 3
+
+![image](../assets/GEROjornada3.PNG)
