@@ -1,5 +1,13 @@
 # Kick-off
 
+## Histórico de versões
+
+|    Data    | Versão |      Descrição       |                    Autor                     |
+|:----------:|:------:|:--------------------:|:--------------------------------------------:|
+| 05/04/2024 |  1.0   | Criação do documento | [Amanda Nobre](https://github.com/AmandaNbr) |
+| 12/04/2024 |  1.1   | Atualização documento| [Marcella Anderle](https://github.com/marcellaanderle) e [Yuri Ezequiel](https://github.com/Yuri57Ezequiel)|
+
+
 ## Sobre
 
 O Kickoff é uma reunião crucial que reúne todas as partes interessadas, incluindo membros da equipe de desenvolvimento, stakeholders do projeto, especialistas técnicos e, idealmente, o cliente ou representantes dos usuários finais. Durante essa reunião, várias atividades são realizadas:
@@ -20,3 +28,7 @@ O Kickoff é uma reunião crucial que reúne todas as partes interessadas, inclu
 
 O Kickoff desempenha um papel fundamental ao alinhar todos os participantes em relação aos objetivos e ao processo da Lean Inception. Ele cria um ambiente de colaboração e entusiasmo, motivando a equipe a trabalhar juntos de forma eficiente ao longo da semana para alcançar os resultados desejados. É o ponto de partida para uma jornada produtiva de definição e planejamento ágil do MVP.
 
+
+## Cronograma
+
+![GEROcuidado cronograma](../assets/cronograma.jpeg)
