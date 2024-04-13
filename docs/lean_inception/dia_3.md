@@ -1,5 +1,7 @@
 # Lean Inception - Dia 3
 
+## Histórico de versões
+
 | Versão | Data       | Descrição | Autores |
 | ------ | ---------- | --------- | ------- |
 | 1.0    | 13/04/2024 | Abertura do documento | [Gustavo Abrantes ](https://github.com/GustaaSZ) |
