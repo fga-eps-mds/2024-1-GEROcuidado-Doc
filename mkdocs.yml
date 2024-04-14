@@ -60,8 +60,8 @@ nav:
   #     - Fazer um documento explicando a primeira semana
   #     que foi divisão de grupos
     - Sprint 2:
-  #     - Planning: sprints/sprint_2/planning_sprint_2.md
-  #     - Reunião PO 27/03: sprints/sprint_2/reuniao_po_2703.md
+  #   - Planning: sprints/sprint_2/planning_sprint_2.md
+      - Reunião PO 27/03: sprints/sprint_2/reuniao_geral_27_03.md
       - Reunião PO 03/04: sprints/sprint_2/reuniao_po_03_04.md
       - Reunião PO 04/04: sprints/sprint_2/reuniao_po_04_04.md
   #     - Review: sprints/sprint_2/review.md
