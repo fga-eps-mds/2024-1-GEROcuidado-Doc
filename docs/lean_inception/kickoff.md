@@ -31,4 +31,4 @@ O Kickoff desempenha um papel fundamental ao alinhar todos os participantes em r
 
 ## Cronograma
 
-![GEROcuidado cronograma](../assets/cronograma_lean_Inception.png)
+![GEROcuidado cronograma](../assets/cronograma_lean_inception.png)
