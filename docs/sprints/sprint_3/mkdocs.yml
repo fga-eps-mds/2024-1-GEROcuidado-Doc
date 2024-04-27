@@ -1,0 +1,82 @@
+site_name: "GEROcuidado"
+repo_name: "2024-1-GEROcuidado-Doc"
+repo_url: "https://github.com/fga-eps-mds/2024-1-GEROcuidado-Doc"
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.pat
+    - navigation.sections
+    - navigation.expand
+  language: pt
+  logo: "assets/gero.png"
+  favicon: "assets/favicon.ico"
+  palette:
+    # Palette toggle for automatic mode
+    #- media: "(prefers-color-scheme)"
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    primary: "#fff"
+    accent: "#0B4D9B"
+
+extra_css:
+  - stylesheets/styles.css
+
+nav:
+  - Home: index.md
+  - Planejamento:
+    - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
+    - Quadro de conhecimento: planejamento/quadro_de_conhecimentos.md
+    - Guia de instalação WSL2: planejamento/guia_instalacao_wsl2.md
+    - Guia de contribuição: planejamento/guia_contribuicao.md
+      #   - Quadro de pareamento: planejamento/quadro_pareamento.md
+      #   - Metodologias: planejamento/metodologia.md
+  - Lean Inception:
+    - Lean Inception: lean_inception/lean_inception.md
+    - Kick-off: lean_inception/kickoff.md
+    - Dia 1: lean_inception/dia_1.md
+    - Dia 2: lean_inception/dia_2.md
+    - Dia 3: lean_inception/dia_3.md
+    - Dia 4: lean_inception/dia_4.md
+  - Dojôs:
+    - Cronograma Dojôs: dojos/cronograma.md
+    - Dojô Git/GitHub: dojos/git.md
+  - Sprints:
+  #   - Sprint 1:
+  #     - Fazer um documento explicando a primeira semana
+  #     que foi divisão de grupos
+    - Sprint 2:
+  #   - Planning: sprints/sprint_2/planning_sprint_2.md
+      - Reunião PO 27/03: sprints/sprint_2/reuniao_geral_27_03.md
+      - Reunião PO 03/04: sprints/sprint_2/reuniao_po_03_04.md
+      - Reunião PO 04/04: sprints/sprint_2/reuniao_po_04_04.md
+  #     - Review: sprints/sprint_2/review.md
+    - Sprint 3:
+  #     - Planning: sprints/sprint_3/planning_sprint_3.md
+      - Reunião PO 10/04: sprints/sprint_3/reuniao_po_10_04.md
+      - Reunião Po 17/04: sprints/sprint_3/reuniao_po_17_04.md
+      - Reunião PO 24/04: sprints/sprint_3/reuniao_geral_24_04.md
+  #     - Review: sprints/sprint_3/review.md
+
+
+plugins:
+  - search
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.snippets
