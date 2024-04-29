@@ -5,6 +5,7 @@
 | Versão | Data       | Descrição | Autores |
 | ------ | ---------- | --------- | ------- |
 | 1.0    | 19/04/2024 | Abertura do documento | [Gustavo Abrantes ](https://github.com/GustaaSZ) e [Yuri Ezequie ](https://github.com/Yuri57Ezequiel)|
+| 1.1    | 28/04/2024 | Texto do sequenciador | [Sebastian Zuzunaga](https://github.com/sebazac332)|
 
 ## Sobre
 
