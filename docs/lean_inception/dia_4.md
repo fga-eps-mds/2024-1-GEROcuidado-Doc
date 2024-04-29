@@ -35,4 +35,23 @@ Além disso, outra ferramenta importante relacionada à priorização de funcion
 Ao combinar o Gráfico de Semáforo com esses símbolos, a equipe pode ter uma visão mais clara e completa das funcionalidades do projeto, ajudando na tomada de decisões informadas sobre o que implementar primeiro, considerando tanto a compreensão técnica quanto o valor para o usuário e para o negócio.
 
 ### Revisão técnica, de negócios e UX do GEROcuidado
-To-Do(Imagem)
+![Revisão Técnica 1](../assets/RevisaoT_1.PNG)
+![Revisão Técnica 2](../assets/RevisaoT_2.PNG)
+![Revisão Técnica 3](../assets/RevisaoT_3.PNG)
+
+## Sequenciador
+O sequenciador nos ajudará a determinar quais funcionalidades devem ser priorizadas para o produto. Tomam-se as funções previamente definidas para a aplicação e organizam-se numa sequência lógica, onde se identificam quais devem ser implementadas no menor tempo possível (Produto Mínimo Viável) e quais podem ser relegadas a ser implementadas no futuro, esta lista orientará o desenvolvimento do projecto.
+
+A lista previamente mencionada será dividida em ondas, estas vão definir a ordem em que se realizarão as tarefas, para sua criação existem algumas regras que garantem a suficiente criação de valor e limitam a dificuldade de cada onda. 
+
+* **Regra 1:** Uma onda pode conter no máximo três, cartões.
+
+* **Regra 2:** Uma onda não pode conter mais de uma cartão vermelho.
+
+* **Regra 3:** Uma onda não pode conter três cartões somente amarelos ou vermelho.
+
+* **Regra 4:** A soma de esforço dos cartões não pode ultrapassar cinco Es.
+
+* **Regra 5:** A soma de valor dos cartões não pode ser menos de quatro $s e quatro corações.
+
+* **Regra 6:** Se um cartão depende de outro, esse outro deve estar em alguma onda anterior.
