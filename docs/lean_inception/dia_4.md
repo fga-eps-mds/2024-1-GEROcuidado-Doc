@@ -9,7 +9,7 @@
 
 ## Sobre
 
-O quarto dia de uma Lean Inception é um marco importante no processo de desenvolvimento de um novo projeto ou produto. Neste estágio, as ideias e conceitos começam a se materializar de forma mais concreta. Dois elementos-chave desse dia são: Revisão Técnica, de Negócios e UX e o Sequenciador, que desempenham um papel fundamental na definição do escopo e na estruturação do projeto. No (19/04/2024), a equipe responsável pelo desenvolvimento (EPS/MDS) juntamente com os clientes do projeto (Enactus), se concentram em uma tarefa fundamental: A Revisão Técnica, de Negócios e UX, que ficou de ser completada de forma assíncrona com a equipe da Enactus até às 9h do dia 20/04.
+O quarto dia de uma Lean Inception é um marco importante no processo de desenvolvimento de um novo projeto ou produto. Neste estágio, as ideias e conceitos começam a se materializar de forma mais concreta. Dois elementos-chave desse dia são: Revisão Técnica, de Negócios e UX e o Sequenciador, que desempenham um papel fundamental na definição do escopo e na estruturação do projeto. No (19/04/2024), a equipe responsável pelo desenvolvimento (EPS/MDS) juntamente com os clientes do projeto (Enactus), se concentram em uma tarefa fundamental: A Revisão Técnica, de Negócios e UX, que ficou de ser completada de forma assíncrona com a equipe da Enactus até às 9h do dia 20/04. Uma vez concluídas todas estas tarefas, será realizado o Canvas MVP, que cumpre a função de definir quais funções devem ser desenvolvidas no menor tempo possível e quais podem ser relegadas a ser desenvolvidas no futuro.
 <!-- e o Canvas MVP -->
 
 ## Revisão técnica, de negócio e UX
@@ -56,3 +56,9 @@ A lista previamente mencionada será dividida em ondas, estas vão definir a ord
 * **Regra 5:** A soma de valor dos cartões não pode ser menos de quatro $s e quatro corações.
 
 * **Regra 6:** Se um cartão depende de outro, esse outro deve estar em alguma onda anterior.
+
+## Sequenciador do GEROcuidado
+![Sequenciador 1](../assets/seq1.PNG)
+![Sequenciador 2](../assets/seq2.PNG)
+![Sequenciador 3](../assets/seq3.PNG)
+![Sequenciador 4](../assets/seq4.PNG)
