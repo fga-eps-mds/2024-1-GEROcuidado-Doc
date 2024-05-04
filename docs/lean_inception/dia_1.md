@@ -18,7 +18,7 @@ Conceber essa visão consensual é crucial para que todos os membros da equipe e
 
 ### Visão do Produto do GEROcuidado
 
-![Visão do Prodfuto](docs/assets/Gero_Visãodoproduto.png)
+![Visão do Prodfuto](../assets/Gero_Visãodoproduto.png)
 
 ## É/não é - Faz/não faz
 
@@ -34,7 +34,7 @@ Efetivamente, essas listas contribuem para uma melhor comunicação entre a equi
 
 ## É/não é - Faz/não faz do GEROcuidado
 
-![É/nãoé-faz/nãofaz](docs/assets/GEROéenãoé-fazenãofaz.png)
+![É/nãoé-faz/nãofaz](../assets/GEROéenãoé-fazenãofaz.png)
 
 ## Objetivos do Produto 
 
@@ -42,6 +42,6 @@ Na etapa designada como "Objetivos do Produto", que ocorre durante o processo de
 
 Durante a definição dos objetivos, procede-se à categorização em "clusters", que servem para agrupar objetivos de natureza similar sob um mesmo rótulo geral, facilitando a organização e o entendimento das metas a serem atingidas pelo produto em desenvolvimento.
 
-![ObjetivodoProduto](docs/assets/ObjetivoDoProduto.png)
+![ObjetivodoProduto](../assets/ObjetivoDoProduto.png)
 
 [def]: ...docs/assets/Gero_Visãodoproduto.png
