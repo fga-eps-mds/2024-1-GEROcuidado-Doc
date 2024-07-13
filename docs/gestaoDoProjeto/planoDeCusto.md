@@ -39,7 +39,7 @@ De acordo com dados da CEMIG, um notebook consome em torno de 7,20 kWh por mês 
 
 **7,20 kWh por mês ÷ 4,33 semanas ≈ 1,66 kWh por semana**
 
-Segundo a Neoenergia, a tarifa vigente no DF durante o período de desenvolvimento do projeto é de aproximadamente 0,77. Aplicando essa tarifa de energia o valor é de aproximadamente R$ 1,28 por semana para cada integrante.
+Segundo dados disponíveis no site da Neoenergia <a href=./#referencias>Neoenergia</a>, a tarifa vigente no DF durante o período de desenvolvimento do projeto é de aproximadamente 0,77. Aplicando essa tarifa de energia o valor é de aproximadamente R$ 1,28 por semana para cada integrante.
 
 **1,66 kWh por semana × 0,77 ≈ R$ 1,28 por semana**
 
@@ -91,3 +91,5 @@ TO-DO
 > [3] Melhor Escolha. Internet em Brasília. Disponível em: https://melhorescolha.com/internet-banda-larga/brasilia-df. Acesso em: 13 jul. 2024.
 
 > [4] Showmetech. Gastando muita energia? Descubra 10 eletrônicos vilões da conta de luz. Disponível em: https://www.showmetech.com.br/eletronicos-que-mais-consomem-energia. Acesso em: 13 jul. 2024.
+
+> [5] Neoenergia. Composição Tarifária. Disponível em: https://www.neoenergia.com/web/brasilia/sua-casa/composicao-tarifaria. Acesso em: 13 jul. 2024.
