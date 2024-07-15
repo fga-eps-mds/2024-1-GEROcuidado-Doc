@@ -45,6 +45,8 @@ nav:
     - Guia de contribuição: planejamento/guia_contribuicao.md
       #   - Quadro de pareamento: planejamento/quadro_pareamento.md
       #   - Metodologias: planejamento/metodologia.md
+  - Gestão do Projeto:
+    - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md
     - Kick-off: lean_inception/kickoff.md
