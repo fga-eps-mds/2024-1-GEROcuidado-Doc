@@ -80,8 +80,6 @@ Para o acompanhamento semanal dos custos foi elaborada uma planilha com os custo
 
 Foi elaborado um gráfico para visualizar a proporção dos custos totais esperados ao final do projeto para cada categoria.
 
-Além disso, o gráfico abaixo mostra as custos a cada semana de projeto, no qual a primeira semana tem o custo maior devido os equipamentos (notebooks):
-
 <iframe width="2000" height="600" frameborder="0" scrolling="yes" src="https://infogram.com/plano-de-custos-1h7v4pd3qqxyj4k?live&single=true"></iframe>
 
 
