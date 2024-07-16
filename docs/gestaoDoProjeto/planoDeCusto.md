@@ -48,11 +48,11 @@ Sendo assim, o custo de internet para os 9 membros é de aproximadamente **R$ 11
 
 ### Equipamentos
 
-Para o custo dos equipamentos, será considerado um notebook com processador Intel Core i5, 8 GB de memória RAM e 256 GB de armazenamento, que é capaz de executar as tecnologias utilizadas no projeto. Um [notebook com estas especificações](https://www.dell.com/pt-br/shop/notebooks/notebook-inspiron-15-3000/spd/inspiron-15-3511-laptop/i3511u7001w) está custando atualmente aproximadamente cerca de R$ 2.700,00. Sendo um notebook para cada um dos 9 integrantes, o custo total de **R$ 24.300,00**.
+Para o custo dos equipamentos, será considerado um notebook com processador Intel Core i5, 8 GB de memória RAM e 256 GB de armazenamento, que é capaz de executar as tecnologias utilizadas no projeto. Um [notebook com estas especificações](https://www.dell.com/pt-br/shop/notebooks/notebook-inspiron-15-3000/spd/inspiron-15-3511-laptop/i3511u7001w) está custando atualmente aproximadamente cerca de R$ 2.700,00. Sendo um notebook para cada um dos 9 integrantes, o custo total será de **R$ 24.300,00**.
 
 ## Custo Total
 
-Com isso, é estimado um custo semanal de R$ 852,99 para cada integrante.
+Com isso, é estimado um custo semanal de R$ 520,35 para cada integrante.
 
 | Tipo de Custo | Valor |
 |:--:|:--:|
@@ -75,14 +75,11 @@ Para o acompanhamento semanal dos custos foi elaborada uma planilha com os custo
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRevCiBwVxp7rIkJhj_Otyidt3DzZ_PbLpN3er0siZIPUbZ_dWTLFrXtDCsu7KQrLDUmaApxbucCe-g/pubhtml?widget=true&amp;headers=false" width="100%" width= "100" height="500" frameborder="1" scrolling="no"></iframe>
 
-
 ## Gráficos
 
 Foi elaborado um gráfico para visualizar a proporção dos custos totais esperados ao final do projeto para cada categoria.
 
 <iframe width="2000" height="600" frameborder="0" scrolling="yes" src="https://infogram.com/plano-de-custos-1h7v4pd3qqxyj4k?live&single=true"></iframe>
-
-
 
 ## Referências
 
