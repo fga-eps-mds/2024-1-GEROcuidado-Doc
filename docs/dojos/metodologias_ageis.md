@@ -14,26 +14,37 @@ Link do material de apoio e realização da atividade [aqui](https://docs.google
 
 #### Procedimento:
 
-1. **Divisão em Grupos:**
-   - Os participantes serão divididos em equipes de acordo com as metodologias escolhidas: SCRUM, Kanban e XP.
-   - Cada equipe terá a oportunidade de experimentar uma das metodologias durante a simulação.
+##### 1. **Divisão em Grupos:**
 
-2. **Explicação das Metodologias:**
-   - Breve explicação dos princípios e rituais de cada metodologia:
+   * Os participantes serão divididos em equipes de acordo com as metodologias escolhidas: SCRUM, Kanban e XP.
+   * Cada equipe terá a oportunidade de experimentar uma das metodologias durante a simulação.
+
+
+##### 2. **Explicação das Metodologias:**
+
+   * Breve explicação dos princípios e rituais de cada metodologia:
+
      - SCRUM: Planejamento da Sprint, Reuniões Diárias, Revisão da Sprint, Retrospectiva da Sprint.
      - Kanban: Quadro Kanban, Limites de WIP, Fluxo Contínuo.
      - XP: Desenvolvimento Orientado a Testes (TDD), Programação em Pares, Integração Contínua.
 
-3. **Simulação de Ciclo de Trabalho:**
-   - Cada equipe realizará uma simulação de ciclo de trabalho de acordo com a metodologia atribuída.
-   - Durante a simulação, os participantes devem seguir os rituais e práticas da metodologia escolhida, trabalhando juntos para completar as tarefas atribuídas.
 
-4. **Feedback e Discussão:**
-   - Após a simulação, cada equipe compartilhará suas experiências, desafios enfrentados e lições aprendidas.
-   - Todos os participantes serão encorajados a participar de uma discussão aberta para comparar as diferentes abordagens e identificar insights úteis.
+##### 3. **Simulação de Ciclo de Trabalho:**
 
-5. **Reflexão Individual:**
-   - Os participantes são convidados a refletir sobre como as metodologias ágeis podem ser aplicadas em seus projetos reais, levando em consideração as experiências da simulação.
+   * Cada equipe realizará uma simulação de ciclo de trabalho de acordo com a metodologia atribuída.
+   * Durante a simulação, os participantes devem seguir os rituais e práticas da metodologia escolhida, trabalhando juntos para completar as tarefas atribuídas.
+
+
+##### 4. **Feedback e Discussão:**
+
+   * Após a simulação, cada equipe compartilhará suas experiências, desafios enfrentados e lições aprendidas.
+   * Todos os participantes serão encorajados a participar de uma discussão aberta para comparar as diferentes abordagens e identificar insights úteis.
+
+
+##### 5. **Reflexão Individual:**
+
+   * Os participantes são convidados a refletir sobre como as metodologias ágeis podem ser aplicadas em seus projetos reais, levando em consideração as experiências da simulação.
+
 
 #### Conclusão:
 
