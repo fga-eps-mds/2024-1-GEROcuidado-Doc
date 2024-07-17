@@ -55,6 +55,7 @@ nav:
   - Dojôs:
     - Cronograma Dojôs: dojos/cronograma.md
     - Dojô Git/GitHub: dojos/git.md
+    - Dojô Metodologias Ágeis: dojos/metodologias_ageis.md
   - Sprints:
   #   - Sprint 1:
   #     - Fazer um documento explicando a primeira semana
