@@ -5,26 +5,17 @@
 |--|--|--|--|
 |1.0| 13/07/2024 | Criação do documento | Gustavo Abrantes |
 |1.1| 15/07/2024 | Adição da planilha e do gráfico | Gustavo Abrantes |
+|1.2| 17/07/2024 | Correção de alguns dados | Gustavo Abrantes |
 
 ## Custos
 
 ### Pessoas
 
-De acordo com o <a href=./#referencias>Jornal da Unesp</a>, cada aluno de uma universidade federal custa em média R$ 40.900,00 por ano. Como esses dados se referem ao ano de 2015, há a necessidade de corrigir o valor para o ano de 2024 de acordo com a inflação, que neste período, considerando os últimos 12 meses, se encontra em 4,23%. Após aplicar essa correção utilizando a calculadora de inflação do <a href=./#referencias>IBGE</a>, o valor passa a ser R$ 61.894,30 por ano, ou R$ 1.180,04 por semana.
+De acordo com o <a href=./#referencias>Jornal da Unesp</a>, cada aluno de uma universidade federal custa em média R$ 40.900,00 por ano. Como esses dados se referem ao ano de 2015, há a necessidade de corrigir o valor para o ano de 2024 de acordo com a inflação, que neste período, considerando os últimos 12 meses, se encontra em 4,23%. Após aplicar essa correção utilizando a calculadora de inflação do <a href=./#referencias>IBGE</a>, o valor passa a ser R$ 61.894,30 por ano, ou R$ 5.157,86 por mês.
 
-**R$ 61.894,30 ÷ 52 semanas ≈ R$ 1.190,27**
+**R$ 61.894,30 ÷ 12 meses ≈ R$ 5.157,86**
 
-Considerando um semestre em que o aluno cursa 6 disciplinas de 4 créditos cada (24 créditos no total), o custo semanal para cada crédito nesse mesmo semestre é de R$ 49,60.
-
-**R$ 1.190,27 ÷ 24 créditos ≈ R$ 49,60**
-
-Para o custo de um aluno da disciplina de Métodos de Desenvolvimento de Software (MDS) ou Engenharia de Produto de Software (EPS), serão considerados os 4 créditos da disciplina (4 horas de aula por semana), além de 6 créditos (6 horas de atividades por semana de trabaho no projeto) adicionais de atividades fora do horário de aula.
-
-**R$ 49,60 × (4 créditos + 6 créditos) = R$ 496**
-
-Sendo assim, o custo semanal por integrante da equipe é de R$ 496. Como a equipe é composta por 9 membros (Equipe sofreu alguns desfalques durante o processo de desenvolvimento do projeto), sendo 6 de MDS e 3 de EPS, o custo total por semana é de R$ 4.464.
-
-**R$ 496 × 9 integrantes = R$ 4.464**
+Considerando que o curso de Engenharia de Software da Universidade de Brasília possui 232 créditos (15 horas-aula = 1 crédito), em um periodo de 10 semestres, é possível chegar no resultado de uma média de, aproximadamente, 46 créditos ou 690 horas por ano. Assim, chegamos ao valor de R$ 89,70 por hora para um estudante. Considerando que para cada semana do projeto serão despendidas, aproximadamente, 12,5 horas de foco para a disciplina de EPS/MDS, o valor individual semanal por membro é de R$ 1.121,25. Logo, o valor total por semana de 9 membros é de R$ 10.091,25
 
 ### Internet
 
@@ -48,36 +39,17 @@ Sendo assim, o custo de internet para os 9 membros é de aproximadamente **R$ 11
 
 ### Equipamentos
 
-Para o custo dos equipamentos, será considerado um notebook com processador Intel Core i5, 8 GB de memória RAM e 256 GB de armazenamento, que é capaz de executar as tecnologias utilizadas no projeto. Um [notebook com estas especificações](https://www.dell.com/pt-br/shop/notebooks/notebook-inspiron-15-3000/spd/inspiron-15-3511-laptop/i3511u7001w) está custando atualmente aproximadamente cerca de R$ 2.700,00. Sendo um notebook para cada um dos 9 integrantes, o custo total será de **R$ 24.300,00**.
-
-## Custo Total
-
-Com isso, é estimado um custo semanal de R$ 520,35 para cada integrante.
-
-| Tipo de Custo | Valor |
-|:--:|:--:|
-| Pessoas | R$ 496 |
-| Internet | R$ R$ 23,07 |
-| Energia | R$ R$ 1,28 |
-| **Total** | **R$ 520,35**  |
-
-Como 9 integrantes fazem parte da equipe, é estimado um custo semanal total de R$4.683,15.
-
-**R$ 520,35 × 9 integrantes = R$ 4.683,15**
-
-Após as 17 semanas de projeto, considerando também o custo dos equipamentos que ocorre apenas na primeira semana, o custo total estimado inicialmente para o projeto é de R$ 103.913,55.
-
-**R$ 4.683,15 (custo semanal) × 17 semanas + R$ 24.300,00 (equipamentos) = R$ 103.913,55**
+Para o custo dos equipamentos, será considerado um notebook com processador Intel Core i5, 8 GB de memória RAM e 256 GB de armazenamento, que é capaz de executar as tecnologias utilizadas no projeto. Um [notebook com estas especificações](https://www.dell.com/pt-br/shop/notebooks/notebook-inspiron-15-3000/spd/inspiron-15-3511-laptop/i3511u7001w) está custando atualmente aproximadamente cerca de R$ 2.790,00. Sendo um notebook para cada um dos 9 integrantes, o custo total de **R$ 25.110,00**.
 
 ## Planilha de custos
 
-Para o acompanhamento semanal dos custos foi elaborada uma planilha com os custos para cada integrante da equipe.
+Para melhor detalhado dos custos, foi elaborada uma planilha com os custos totais do MVP e do projeto completo.
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRevCiBwVxp7rIkJhj_Otyidt3DzZ_PbLpN3er0siZIPUbZ_dWTLFrXtDCsu7KQrLDUmaApxbucCe-g/pubhtml?widget=true&amp;headers=false" width="100%" width= "100" height="500" frameborder="1" scrolling="no"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRt41IIHqR2KqZQL-ta9rCrkjuMNtcsOp0NsejgdpwE4otup4BJjkir_WcJpcOAvIKZdLfZttTY1Kms/pubhtml?widget=true&amp;headers=false" width="100%" width= "100" height="500" frameborder="1" scrolling="no"></iframe>
 
 ## Gráficos
 
-Foi elaborado um gráfico para visualizar a proporção dos custos totais esperados ao final do projeto para cada categoria.
+Foi elaborado um gráfico para visualizar a proporção dos custos totais esperados ao final do desenvolvimento do MVP do projeto.
 
 <iframe width="2000" height="600" frameborder="0" scrolling="yes" src="https://infogram.com/plano-de-custos-1h7v4pd3qqxyj4k?live&single=true"></iframe>
 
