@@ -52,6 +52,8 @@ nav:
     - Dia 2: lean_inception/dia_2.md
     - Dia 3: lean_inception/dia_3.md
     - Dia 4: lean_inception/dia_4.md
+  - Gestão do projeto:
+    - Plano de riscos: gestão/plano_riscos.md
   - Dojôs:
     - Cronograma Dojôs: dojos/cronograma.md
     - Dojô Git/GitHub: dojos/git.md
