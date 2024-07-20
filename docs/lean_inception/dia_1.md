@@ -3,7 +3,7 @@
 ## Histórico de versões
 |    Data    | Versão |      Descrição       |                    Autor                     |
 |:----------:|:------:|:--------------------:|:--------------------------------------------:|
-| 13/04/2024 |  1.0   | Criação do documento | [Jessica Luiza](https://github.com/JKluiza) |
+| 19/04/2024 |  1.0   | Criação do documento | [Jessica Luiza](https://github.com/JKluiza) |
 
 ## Sobre 
 
