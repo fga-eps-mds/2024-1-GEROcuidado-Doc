@@ -55,18 +55,21 @@ nav:
   - Dojôs:
     - Cronograma Dojôs: dojos/cronograma.md
     - Dojô Git/GitHub: dojos/git.md
-  # - Sprints:
+    - Dojô Metodologias Ágeis: dojos/metodologias_ageis.md
+  - Sprints:
   #   - Sprint 1:
   #     - Fazer um documento explicando a primeira semana
   #     que foi divisão de grupos
-  #   - Sprint 2:
-  #     - Planning: sprints/sprint_2/planning_sprint_2.md
-  #     - Reunião PO 27/03: sprints/sprint_2/reuniao_po_2703.md
+    - Sprint 2:
+  #   - Planning: sprints/sprint_2/planning_sprint_2.md
+      - Reunião PO 27/03: sprints/sprint_2/reuniao_geral_27_03.md
+      - Reunião PO 03/04: sprints/sprint_2/reuniao_po_03_04.md
+      - Reunião PO 04/04: sprints/sprint_2/reuniao_po_04_04.md
   #     - Review: sprints/sprint_2/review.md
-  #   - Sprint 3:
+    - Sprint 3:
   #     - Planning: sprints/sprint_3/planning_sprint_3.md
-  #     - Reunião PO 03/04: sprints/sprint_3/reuniao_po_0304.md
-  #     - Reunião PO 04/04:  sprints/sprint_3/reuniao_po_0404.md
+      - Reunião PO 10/04: sprints/sprint_3/reuniao_po_10_04.md
+      - Reunião PO 24/04: sprints/sprint_3/reuniao_geral_24_04.md
   #     - Review: sprints/sprint_3/review.md
 
 
