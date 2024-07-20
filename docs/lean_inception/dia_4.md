@@ -6,10 +6,11 @@
 | ------ | ---------- | --------- | ------- |
 | 1.0    | 19/04/2024 | Abertura do documento | [Gustavo Abrantes ](https://github.com/GustaaSZ) e [Yuri Ezequie ](https://github.com/Yuri57Ezequiel)|
 | 1.1    | 28/04/2024 | Texto do sequenciador | [Sebastian Zuzunaga](https://github.com/sebazac332)|
+| 1.3    | 20/07/2024 | Adição do Canvas MVP | [Gustavo Abrantes ](https://github.com/GustaaSZ)|
 
 ## Sobre
 
-O quarto dia de uma Lean Inception é um marco importante no processo de desenvolvimento de um novo projeto ou produto. Neste estágio, as ideias e conceitos começam a se materializar de forma mais concreta. Dois elementos-chave desse dia são: Revisão Técnica, de Negócios e UX e o Sequenciador, que desempenham um papel fundamental na definição do escopo e na estruturação do projeto. No (19/04/2024), a equipe responsável pelo desenvolvimento (EPS/MDS) juntamente com os clientes do projeto (Enactus), se concentram em uma tarefa fundamental: A Revisão Técnica, de Negócios e UX, que ficou de ser completada de forma assíncrona com a equipe da Enactus até às 9h do dia 20/04. Uma vez concluídas todas estas tarefas, será realizado o Canvas MVP, que cumpre a função de definir quais funções devem ser desenvolvidas no menor tempo possível e quais podem ser relegadas a ser desenvolvidas no futuro.
+O quarto dia de uma Lean Inception é um marco importante no processo de desenvolvimento de um novo projeto ou produto. Neste estágio, as ideias e conceitos começam a se materializar de forma mais concreta. Serão 4 elementos-chave desse dia: Revisão Técnica, de Negócios e UX, Sequenciador e o canvas MVP. Esses elementos desempenham um papel fundamental na definição do escopo e na estruturação do projeto. No (19/04/2024), a equipe responsável pelo desenvolvimento (EPS/MDS) juntamente com os clientes do projeto (Enactus), se concentram em uma tarefa fundamental: A Revisão Técnica, de Negócios e UX, que ficou de ser completada de forma assíncrona com a equipe da Enactus até às 9h do dia 20/04. Uma vez concluídas todas estas tarefas, será realizado o Canvas MVP, que cumpre a função de definir quais funções devem ser desenvolvidas no menor tempo possível e quais podem ser relegadas a ser desenvolvidas no futuro.
 <!-- e o Canvas MVP -->
 
 ## Revisão técnica, de negócio e UX
@@ -62,3 +63,33 @@ A lista previamente mencionada será dividida em ondas, estas vão definir a ord
 ![Sequenciador 2](../assets/seq2.PNG)
 ![Sequenciador 3](../assets/seq3.PNG)
 ![Sequenciador 4](../assets/seq4.PNG)
+
+## Canvas MVP
+
+O Canvas MVP é uma ferramenta visual que ajuda a equipe a definir o que fará parte do Produto Mínimo Viável. Ele geralmente é composto por nove áreas ou blocos, incluindo:
+
+- **Objetivo do MVP:** Uma declaração clara do que se pretende alcançar com o MVP.
+
+- **Problema:** Uma descrição do problema que o MVP está resolvendo para os usuários.
+
+- **Solução:** Uma visão geral da solução que será implementada.
+
+- **Usuários:** Quem são os usuários-alvo do MVP.
+
+- **Características Principais:** As funcionalidades centrais que serão incluídas no MVP.
+
+- **Métricas de Sucesso:** Como o sucesso do MVP será medido.
+
+- **Hipóteses:** Suposições ou previsões que estão sendo testadas com o MVP.
+
+- **Restrições:** Quaisquer limitações ou restrições que afetam o desenvolvimento do MVP.
+
+- **Aprendizados:** Espaço para registrar o que a equipe aprendeu durante o processo de criação do Canvas MVP.
+
+O Canvas MVP ajuda a equipe a visualizar de forma clara e concisa o escopo do Produto Mínimo Viável, garantindo que todos tenham uma compreensão comum do que será desenvolvido e por quê.
+
+![Modelo Canvas MVP](../assets/Model_Canva-MVP.png)
+
+### Canvas MVP do GEROcuidado
+
+![Canvas MVP](../assets/Canva_MVP.png)
