@@ -43,6 +43,7 @@ nav:
     - Quadro de conhecimento: planejamento/quadro_de_conhecimentos.md
     - Guia de instalação WSL2: planejamento/guia_instalacao_wsl2.md
     - Guia de contribuição: planejamento/guia_contribuicao.md
+    - Código de conduta: planejamento/codigo_de_conduta.md
       #   - Quadro de pareamento: planejamento/quadro_pareamento.md
       #   - Metodologias: planejamento/metodologia.md
   - Gestão do Projeto:
