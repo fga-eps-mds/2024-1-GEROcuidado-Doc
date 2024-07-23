@@ -30,7 +30,7 @@ O Lean Inception se destaca por sua abordagem ágil e colaborativa, permitindo q
 
 ## Exemplo de cronograma do Lean Inception
 
-![Cronograma Lean Inception](/assets/agenda_lean_inception.jpg)
+![Cronograma Lean Inception](../assets/agenda_lean_inception.jpg)
 
 ## Lean Inception GEROcuidado
 
@@ -43,4 +43,9 @@ O Lean Inception se destaca por sua abordagem ágil e colaborativa, permitindo q
 </iframe>
 
 ### GEROcuidado - 2024.1
-TO-DO: Disponibilizar o Lean Inception GEROcuidado 2024-1
+<iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2FHAuS87ng1eat55IbZIpF9Y%2FVisao-do-Produto-2024.1%3Fnode-id%3D0-1%26t%3DgNQXIeHlU3bN8H9D-1" 
+  style="border: 1px solid rgba(0, 0, 0, 0.1);" 
+  width='100%'
+  height='480px'
+  allowfullscreen>
+</iframe>

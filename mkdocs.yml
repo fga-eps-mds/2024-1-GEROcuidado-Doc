@@ -48,6 +48,7 @@ nav:
       #   - Metodologias: planejamento/metodologia.md
   - Gestão do Projeto:
     - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
+    - EAP: gestaoDoProjeto/eap.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md
     - Kick-off: lean_inception/kickoff.md
@@ -55,27 +56,28 @@ nav:
     - Dia 2: lean_inception/dia_2.md
     - Dia 3: lean_inception/dia_3.md
     - Dia 4: lean_inception/dia_4.md
-  - Documentação do Projeto:
-    - EAP: documentacao/eap.md
   - Dojôs:
-    - Cronograma Dojôs: dojos/cronograma.md
+  #  - Cronograma Dojôs: dojos/cronograma.md
     - Dojô Git/GitHub: dojos/git.md
     - Dojô Metodologias Ágeis: dojos/metodologias_ageis.md
-  - Sprints:
-  #   - Sprint 1:
-  #     - Fazer um documento explicando a primeira semana
-  #     que foi divisão de grupos
-    - Sprint 2:
-  #   - Planning: sprints/sprint_2/planning_sprint_2.md
-      - Reunião PO 27/03: sprints/sprint_2/reuniao_geral_27_03.md
-      - Reunião PO 03/04: sprints/sprint_2/reuniao_po_03_04.md
-      - Reunião PO 04/04: sprints/sprint_2/reuniao_po_04_04.md
-  #     - Review: sprints/sprint_2/review.md
-    - Sprint 3:
-  #     - Planning: sprints/sprint_3/planning_sprint_3.md
-      - Reunião PO 10/04: sprints/sprint_3/reuniao_po_10_04.md
-      - Reunião PO 24/04: sprints/sprint_3/reuniao_geral_24_04.md
-  #     - Review: sprints/sprint_3/review.md
+  - Semanas e sprints:
+    - Semana 1:
+      - Resumo semana 1: semanas/semana_1/resumo_semana_1.md
+    - Semana 2:
+      - Reunião Geral 27/03: semanas/semana_2/reuniao_geral_27_03.md
+    - Semana 3:
+      - Reunião Geral 03/04: semanas/semana_3/reuniao_po_03_04.md
+      - Reunião Geral 04/04: semanas/semana_3/reuniao_po_04_04.md
+    - Semana 4:
+      - Reunião Geral 10/04: semanas/semana_4/reuniao_po_10_04.md
+    - Semana 5:
+      - Reunião Geral 19/04: semanas/semana_5/reuniao_geral_19_04.md
+      - Reunião Geral 24/04: semanas/semana_5/reuniao_geral_24_04.md
+      - Reunião Geral 17/07: semanas/semana_5/reuniao_geral_17_07.md
+    - Sprint 1:
+      - Reunião Geral 24/07: semanas/semana_6/reuniao_geral_24_07.md
+      - Planning: sprints/sprint_1/planning.md
+      - Review: sprints/sprint_1/review.md
 
 
 plugins:
