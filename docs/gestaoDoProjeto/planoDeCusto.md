@@ -3,9 +3,9 @@
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
-|1.0| 13/07/2024 | Criação do documento | Gustavo Abrantes |
-|1.1| 15/07/2024 | Adição da planilha e do gráfico | Gustavo Abrantes |
-|1.2| 17/07/2024 | Correção de alguns dados | Gustavo Abrantes |
+|1.0| 13/07/2024 | Criação do documento | [Gustavo Abrantes](https://github.com/GustaaSZ) |
+|1.1| 15/07/2024 | Adição da planilha e do gráfico | [Gustavo Abrantes](https://github.com/GustaaSZ) |
+|1.2| 17/07/2024 | Correção de alguns dados | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 
 ## Custos
 
