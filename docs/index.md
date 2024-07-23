@@ -74,13 +74,6 @@ A equipe é composta por 11 membros ao todo, sendo 3 de EPS e 8 de MDS, afim de 
 
   <div  style="display: flex; flex-direction: column; align-items: center; margin-bottom: 2em">
     <div style="width: 200px; height: 200px">
-      <img style="border-radius: 50%; border: 3px solid #3f6ec6" src="https://avatars.githubusercontent.com/LucasCarminati?v=4"/>
-    </div>
-    <label>Lucas Carminati</label>
-  </div>
-
-  <div  style="display: flex; flex-direction: column; align-items: center; margin-bottom: 2em">
-    <div style="width: 200px; height: 200px">
       <img style="border-radius: 50%; border: 3px solid #3f6ec6" src="https://avatars.githubusercontent.com/marcellaanderle?v=4"/>
     </div>
     <label>Marcella Anderle</label>
@@ -98,13 +91,6 @@ A equipe é composta por 11 membros ao todo, sendo 3 de EPS e 8 de MDS, afim de 
       <img style="border-radius: 50%; border: 3px solid #3f6ec6" src="https://avatars.githubusercontent.com/sebazac332?v=4"/>
     </div>
     <label>Sebastián Héctor</label>
-  </div>
-
-  <div  style="display: flex; flex-direction: column; align-items: center; margin-bottom: 2em">
-    <div style="width: 200px; height: 200px">
-      <img style="border-radius: 50%; border: 3px solid #3f6ec6" src="https://avatars.githubusercontent.com/Yuri57silva?v=4"/>
-    </div>
-    <label>Yuri Silva</label>
   </div>
 
 </div>
