@@ -2,7 +2,7 @@
 
 |    Data    | Versão |      Descrição       |                     Autor                     |
 |:----------:|:------:|:--------------------:|:---------------------------------------------:|
-| 12/04/2024 |  1.0   | Criação do documento | [ Jessica Luiza](https://github.com/jkluiza) e [Yuri Ezequiel](https://github.com/Yuri57Ezequiel)||
+| 12/04/2024 |  1.0   | Criação do documento | [Jessica Luiza](https://github.com/jkluiza) e [Yuri Ezequiel](https://github.com/Yuri57Ezequiel)||
 
 ## Pauta
 
