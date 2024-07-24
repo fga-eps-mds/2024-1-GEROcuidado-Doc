@@ -49,7 +49,9 @@ nav:
     - Plano de Comunicação: planejamento/plano_de_comunicacao.md
     - Metodologias: planejamento/metodologia.md
   - Gestão do Projeto:
-    # - Prototipo: gestaoDoProjeto/prototipo.md
+    - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
+    - EAP: gestaoDoProjeto/eap.md
+    - Protótipo: produto/prototipo/prototipo.md
     - Backlog: gestaoDoProjeto/backlog.md
     - Documento de Arquitetura: /arquitetura.md
     - Ferramentas: gestaoDoProjeto/ferramentas.md
