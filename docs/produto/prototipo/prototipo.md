@@ -20,62 +20,62 @@ Ao serem criados as telas foi pensado no esquema de prototipar para utilização
 
 ### Entrar
 
-![Tela de Entrar](../assets/imagens/Prototipo/Entrar.png)
+![Tela de Entrar](/docs/assets/imagens/Prototipo/Entrar.png)
 
 ### Cadastro
 
-![Tela de Cadastro](../assets/imagens/Prototipo/Cadastro.png)
-![Tela de cadastro do idoso](../assets/imagens/Prototipo/Cadastrar_Idoso_Cadastro.png)
+![Tela de Cadastro](/docs/assets/imagens/Prototipo/Cadastro.png)
+![Tela de cadastro do idoso](/docs/assets/imagens/Prototipo/Cadastrar_Idoso_Cadastro.png)
 
 ### Login
 
-![Tela de Login](../assets/imagens/Prototipo/Login.png)
+![Tela de Login](/docs/assets/imagens/Prototipo/Login.png)
 
 ### Tela Inicial
 
-![Tela Inicial](../assets/imagens/Prototipo/Tela_Inicial.png)
+![Tela Inicial](/docs/assets/imagens/Prototipo/Tela_Inicial.png)
 
 ### Perfil
 
-![Tela de Perfil](../assets/imagens/Prototipo/Perfil.png)
+![Tela de Perfil](/docs/assets/imagens/Prototipo/Perfil.png)
 
 ### Cadastrar Idoso
 
-![Tela de cadastrar idoso](../assets/imagens/Prototipo/Cadastrar_Idoso.png)
+![Tela de cadastrar idoso](/docs/assets/imagens/Prototipo/Cadastrar_Idoso.png)
 
 ### Fórum - Usuário Anônimo
 
-![Tela de usuario anonimo](../assets/imagens/Prototipo/Forum_Usuario_Anonimo.png)
+![Tela de usuario anonimo](/docs/assets/imagens/Prototipo/Forum_Usuario_Anonimo.png)
 
 ### Fórum - USuário Cadastrado
 
-![Tela de Forum](../assets/imagens/Prototipo/Forum.png)
+![Tela de Forum](/docs/assets/imagens/Prototipo/Forum.png)
 
 ### Moderação
 
-![Tela de Moderação](../assets/imagens/Prototipo/Moderacao.png)
+![Tela de Moderação](/docs/assets/imagens/Prototipo/Moderacao.png)
 
 ### Rotina
 
-![Rotinas](../assets/imagens/Prototipo/Rotina.png)
+![Rotinas](/docs/assets/imagens/Prototipo/Rotina.png)
 
 ### Notificações
 
-![Tela de Notificação](../assets/imagens/Prototipo/Notificacao.png)
+![Tela de Notificação](/docs/assets/imagens/Prototipo/Notificacao.png)
 
 ### Agenda/Calendário
 
-![Tela de Agenda/Calendário](../assets/imagens/Prototipo/Agenda_Calendario.png)
+![Tela de Agenda/Calendário](/docs/assets/imagens/Prototipo/Agenda_Calendario.png)
 
 ### Métricas de sáude
 
-![Tela de Métricas 1](../assets/imagens/Prototipo/Metrica_Saude_1.png)
-![Tela de Métricas 2](../assets/imagens/Prototipo/Metrica_Saude_2.png)
+![Tela de Métricas 1](/docs/assets/imagens/Prototipo/Metrica_Saude_1.png)
+![Tela de Métricas 2](/docs/assets/imagens/Prototipo/Metrica_Saude_2.png)
 
 ### Incrementos
 
-![Indicadores de senha](../assets/imagens/Prototipo/Incremento_Indicadores_Senha.png)
+![Indicadores de senha](/docs/assets/imagens/Prototipo/Incremento_Indicadores_Senha.png)
 
-![Recuperar Senha](../assets/imagens/Prototipo/Incremento_Recuperar_Senha.png)
+![Recuperar Senha](/docs/assets/imagens/Prototipo/Incremento_Recuperar_Senha.png)
 
-![Interação com Fórum](../assets/imagens/Prototipo/Incremento_Interacao_Forum.png)
+![Interação com Fórum](/docs/assets/imagens/Prototipo/Incremento_Interacao_Forum.png)
