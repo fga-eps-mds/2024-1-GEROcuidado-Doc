@@ -1,7 +1,5 @@
 # GEROcuidado
 
-## Sobre o GEROcuidado
-
 <div align="center">
 <img src="https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/assets/51385738/4b84750a-b35a-4325-8945-65d345af2441" alt="logo" width="300" height="100" > </div>
 
@@ -18,7 +16,7 @@ Bem-estar).
 
 ## Equipe
 
-A equipe é composta por 11 membros ao todo, sendo 3 de EPS e 8 de MDS, afim de documentar o projeto, além de resolver bugs e incrementar o projeto com novas funcionalidades.
+A equipe é composta por 9 membros ao todo, sendo 3 de EPS e 6 de MDS, afim de documentar o projeto, além de resolver bugs e incrementar o projeto com novas funcionalidades.
 
 ### Integrantes de EPS
 

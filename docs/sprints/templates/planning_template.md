@@ -22,19 +22,19 @@ A Sprint X tem como objetivos:
 ## Backlog da Semana
 
 ### Desenvolvimento
-Issue: [#TAG - Nome da Issue](link)
+Issue: [#TAG - Nome da Issue](https://github.com/USERNAME)
 Responsáveis: Maria, Joao.
 Pontuação: XX
 
-Issue: [#TAG - Nome da Issue](link)
+Issue: [#TAG - Nome da Issue](https://github.com/USERNAME)
 Responsáveis: Maria, Joao.
 Pontuação: XX
 
 ### Documentação
-Issue: [#TAG - Nome da Issue](link)
+Issue: [#TAG - Nome da Issue](https://github.com/USERNAME)
 Responsáveis: Maria, Joao.
 Pontuação: XX
 
-Issue: [#TAG - Nome da Issue](link)
+Issue: [#TAG - Nome da Issue](https://github.com/USERNAME)
 Responsáveis: Maria, Joao.
 Pontuação: XX

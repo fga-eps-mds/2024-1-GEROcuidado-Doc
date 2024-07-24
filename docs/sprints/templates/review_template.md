@@ -13,12 +13,12 @@ Duração: 7 dias;
 ## Sprint Backlog
 
 ### Dívidas
-Issue: [#TAG - Nome da Issue](link)
+Issue: [#TAG - Nome da Issue](https://github.com/USERNAME)
 Responsáveis: Maria, Joao.
 Pontuação: XX
 
 ### Concluídas
-Issue: [#TAG - Nome da Issue](link)
+Issue: [#TAG - Nome da Issue](https://github.com/USERNAME)
 Responsáveis: Maria, Joao.
 Pontuação: XX
 
