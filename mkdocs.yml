@@ -50,7 +50,8 @@ nav:
     - Metodologias: planejamento/metodologia.md
   - Gestão do Projeto:
     # - Prototipo: gestaoDoProjeto/prototipo.md
-    - Documento de Arquitetura: gestaoDoProjeto/arquitetura.md
+    - Backlog: gestaoDoProjeto/backlog.md
+    - Documento de Arquitetura: /arquitetura.md
     - Ferramentas: gestaoDoProjeto/ferramentas.md
     - Documento de Banco de Dados: gestaoDoProjeto/doc_banco.md
     - Guia de Estilo: gestaoDoProjeto/estilo.md
