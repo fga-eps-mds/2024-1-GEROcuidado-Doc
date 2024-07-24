@@ -39,17 +39,26 @@ extra_css:
 nav:
   - Home: index.md
   - Planejamento:
-    - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
-    - Quadro de conhecimento: planejamento/quadro_de_conhecimentos.md
-    - Guia de instalação WSL2: planejamento/guia_instalacao_wsl2.md
-    - Guia de contribuição: planejamento/guia_contribuicao.md
-    - Código de conduta: planejamento/codigo_de_conduta.md
-      #   - Quadro de pareamento: planejamento/quadro_pareamento.md
-      #   - Metodologias: planejamento/metodologia.md
+    - EAP: planejamento/eap.md
+    - Quadro de Disponibilidade: planejamento/quadro_de_disponibilidade.md
+    - Quadro de Conhecimento: planejamento/quadro_de_conhecimentos.md
+    - Quadro de Pareamento: planejamento/quadro_de_pareamento.md
+    - Plano de Gestão de Custos: planejamento/planoDeCusto.md
+    - Plano de Gestão de Riscos: planejamento/plano_de_ger_riscos.md
+    - Plano de Qualidade: planejamento/plano_de_qualidade.md
+    - Plano de Comunicação: planejamento/plano_de_comunicacao.md
+    - Metodologias: planejamento/metodologia.md
   - Gestão do Projeto:
     - Plano de Custos: gestaoDoProjeto/planoDeCusto.md
     - EAP: gestaoDoProjeto/eap.md
     - Protótipo: produto/prototipo/prototipo.md
+    - Backlog: gestaoDoProjeto/backlog.md
+    - Documento de Arquitetura: /arquitetura.md
+    - Ferramentas: gestaoDoProjeto/ferramentas.md
+    - Documento de Banco de Dados: gestaoDoProjeto/doc_banco.md
+    - Guia de Estilo: gestaoDoProjeto/estilo.md
+    - Guia de Contribuição: gestaoDoProjeto/guia_contribuicao.md
+    - Código de Conduta: gestaoDoProjeto/codigo_de_conduta.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md
     - Kick-off: lean_inception/kickoff.md
@@ -61,6 +70,7 @@ nav:
   #  - Cronograma Dojôs: dojos/cronograma.md
     - Dojô Git/GitHub: dojos/git.md
     - Dojô Metodologias Ágeis: dojos/metodologias_ageis.md
+    - Guia de instalação WSL2: dojos/guia_instalacao_wsl2.md
   - Semanas e sprints:
     - Semana 1:
       - Resumo semana 1: semanas/semana_1/resumo_semana_1.md
