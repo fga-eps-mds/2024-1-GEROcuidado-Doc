@@ -43,6 +43,10 @@ A arquitetura abaixo ilustra a forma como irá funcionar todas as partes, sendo 
 
 ## Frontend
 
+O front-end do GEROcuidado é uma aplicação nativa android, que poderá ser baixada e instalada diretamente nos smartphones dos usuários. A aplicação é construída de tal forma que poderá ser usada com e sem conexão com a internet. Os serviços descritos abaixo servem como uma nuvem de dados para o que o usuário já consegue realizar no aplicativo.
+
+O front-end é desenvolvido em [React Native](https://reactnative.dev/) utilizando Javascript como linguagem principal. O banco de dados utilizado é o [WatermelonDB](https://watermelondb.dev/docs), que utiliza como recurso o próprio SQLite disponibilizado no Android.
+
 ## Microsserviço Usuário
 
 O microsserviço de Usuário no aplicativo GEROcuidado desempenha um papel essencial na autenticação e gestão de usuários, abrangendo cuidadores formais, idosos autônomos e familiares. Este microsserviço oferece funcionalidades fundamentais relacionadas ao registro e gerenciamento de contas de usuário, permitindo que os usuários acessem as diversas funcionalidades do sistema. Suas principais funcionalidades incluem:
@@ -62,8 +66,6 @@ O microsserviço de Fórum no aplicativo GEROcuidado desempenha um papel crucial
 2. **Moderação de Publicações:** O microsserviço de Fórum também inclui funcionalidades de moderação. Os moderadores, designados para garantir a qualidade e o respeito no fórum, têm a capacidade de revisar e moderar as publicações. Isso inclui a capacidade de aprovar, editar ou excluir publicações para evitar informações imprecisas ou conteúdo inadequado.
 
 3. **Interação com Publicações:** Além das funcionalidades CRUD, os usuários têm a capacidade de interagir com as publicações no fórum. Eles podem "curtir" publicações (likes) e deixar comentários para criar discussões e promover a interação entre os membros da comunidade.
-
-Este microsserviço também pode incluir recursos de notificação para alertar os usuários sobre novas publicações, respostas a comentários e moderações de publicações. *(Rever este parágrafo)*
 
 Através do microsserviço de Fórum, o aplicativo GEROcuidado promove uma comunidade de usuários onde cuidadores formais, cuidadores informais, idosos autônomos e familiares podem trocar informações, apoio e experiências, promovendo um ambiente de aprendizado e colaboração. O foco na moderação garante que o fórum permaneça informativo e respeitoso.
 
