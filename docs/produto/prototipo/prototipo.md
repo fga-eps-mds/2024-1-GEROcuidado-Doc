@@ -21,7 +21,7 @@ Ao serem criados as telas foi pensado no esquema de prototipar para utilização
 ### Tutorial
 ![Tela de Tutorial](../../assets/imagens/Tutorial.png)
 
-### Entrar
+### Tela Inicial
 
 ![Tela de Entrar](../../assets/imagens/Prototipo/Entrar.png)
 
@@ -32,16 +32,12 @@ Ao serem criados as telas foi pensado no esquema de prototipar para utilização
 ![Tela de Login](../../assets/imagens/Redefinir%20Senha.png)
 ![Tela de Login](../../assets/imagens/Requisitos%20Senha.png)
 
-### Cadastro
+### Cadastrar Perfil de Usuário
 
 ![Tela de Cadastro](../../assets/imagens/Prototipo/Cadastro%20Usuário.png)
 ![Tela de cadastro do idoso](../../assets/imagens/Indicadores%20Senha2.png)
 
-### Tela Inicial
-
-![Tela Inicial](../../assets/imagens/Tela%20Inicial.png)
-
-### Perfil
+### Perfil de Usuário
 
 ![Tela de Perfil](../../assets/imagens/Perfil.png)
 ![Tela de Perfil](../../assets/imagens/Prototipo/Apagar%20Perfil2.png)
@@ -71,7 +67,6 @@ Ao serem criados as telas foi pensado no esquema de prototipar para utilização
 
 ![Tela de Rotinas](../../assets/imagens/Prototipo/Criar%20Rotina.png)
 ![Tela de Rotinas](../../assets/imagens/Rotinas2.png)
-![Tela de Rotinas](../../assets/imagens/Editar%20Rotina.png)
 
 ### Notificações
 
@@ -79,11 +74,11 @@ Ao serem criados as telas foi pensado no esquema de prototipar para utilização
 
 ### Visualizar Rotina
 
-![Tela de Agenda/Calendário](../../assets/imagens/Visualizar%20Rotina.png)
+![Tela de Agenda/Calendário](../../assets/imagens/Visualizar%20Rotina1.png)
 
 ### Métricas de sáude
 
-![Tela de Métricas 1](../../assets/imagens/Metricas.png)
+![Tela de Métricas 1](../../assets/imagens/Metricas1.png)
 ![Tela de Métricas 2](../../assets/imagens/Metricas2.png)
 ![Tela de Métricas 3](../../assets/imagens/Metricas3.png)
 ![Tela de Métricas 4](../../assets/imagens/Metricas4.png)
@@ -91,4 +86,4 @@ Ao serem criados as telas foi pensado no esquema de prototipar para utilização
 ![Tela de Métricas 6](../../assets/imagens/Metricas6.png)
 
 ### Sem Conexão
-![Tela Sem Conexão](../../assets/imagens/Sem%20Conexao.png)
+![Tela Sem Conexão](../../assets/imagens/SemConexao.png)
