@@ -35,7 +35,7 @@ Ao serem criados as telas foi pensado no esquema de prototipar para utilização
 ### Cadastrar Perfil de Usuário
 
 ![Tela de Cadastro](../../assets/imagens/Prototipo/Cadastro%20Usuário.png)
-![Tela de cadastro do idoso](../../assets/imagens/Indicadores%20Senha2.png)
+![Tela de cadastro do idoso](../../assets/imagens/Indicadores%20Senha3.png)
 
 ### Perfil de Usuário
 
