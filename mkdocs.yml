@@ -65,7 +65,6 @@ nav:
     - Dia 3: lean_inception/dia_3.md
     - Dia 4: lean_inception/dia_4.md
   - Dojôs:
-  #  - Cronograma Dojôs: dojos/cronograma.md
     - Dojô Git/GitHub: dojos/git.md
     - Dojô Metodologias Ágeis: dojos/metodologias_ageis.md
     - Guia de instalação WSL2: dojos/guia_instalacao_wsl2.md
