@@ -1,5 +1,11 @@
 # Protótipo
 
+## Histórico de versões
+
+|    Data    | Versão |      Descrição       |                                                        Autor                                                     |
+|:----------:|:------:|:--------------------:|:----------------------------------------------------------------------------------------------------------------:|
+| 27/07/2024 |  1.0   | Criação do documento | [Gabriel Monteiro](https://github.com/GabrielSMonteiro)  |
+
 ## Introdução
 
 Na área de desenvolvimento de software, a criação de protótipos desempenha um papel fundamental na concepção e no aprimoramento de sistemas e aplicações. Um protótipo é uma representação inicial de um software que permite aos desenvolvedores, designers e partes interessadas visualizarem e interagirem com as funcionalidades e a aparência do sistema antes da implementação final. Os protótipos são uma ferramenta valiosa para validar conceitos, coletar feedback, identificar requisitos e economizar tempo e recursos no ciclo de desenvolvimento.

@@ -1,5 +1,11 @@
 # Plano de qualidade
 
+## Histórico de versões
+
+|    Data    | Versão |      Descrição       |                                                        Autor                                                     |
+|:----------:|:------:|:--------------------:|:----------------------------------------------------------------------------------------------------------------:|
+| 25/07/2024 |  1.0   | Criação do documento | [Amanda Nobre](https://github.com/AmandaNbr)  |
+
 ## Introdução
 
 A qualidade é uma pedra angular em qualquer projeto de software. Para garantir que o nosso projeto atenda aos mais altos padrões de qualidade, estabelecemos um plano que utiliza tecnologias e práticas eficazes para aprimorar a qualidade do código, a robustez da aplicação e a confiabilidade do software. Neste plano de qualidade, detalharemos como planejamos as métricas e tecnologias de suporte para garantia de qualidade.

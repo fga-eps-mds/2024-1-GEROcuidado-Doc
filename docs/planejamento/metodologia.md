@@ -1,6 +1,6 @@
 # Metodologias
 
-## Versionamento
+## Histórico de versões
 
 | Versão | Data       | Descrição             | Autores     |
 | ------ | ---------- | --------------------- | ----------- |

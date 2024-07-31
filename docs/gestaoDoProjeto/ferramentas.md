@@ -1,4 +1,11 @@
 # Ferramentas
+
+## Histórico de versões
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+|1.0| 23/07/2024 | Criação do documento | [Ugor Brandão](https://github.com/ubrando) |
+
+
 Este documento tem como objetivo explicar as tecnologias que serão usadas no projeto GEROcuidado.
 
 

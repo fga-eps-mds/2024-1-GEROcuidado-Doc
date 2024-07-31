@@ -1,6 +1,6 @@
 # Plano de Gestão de Riscos
 
-## Versionamento
+## Histórico de versões
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0| 27/07/2024 | Criação do documento | Natália Rodrigues |

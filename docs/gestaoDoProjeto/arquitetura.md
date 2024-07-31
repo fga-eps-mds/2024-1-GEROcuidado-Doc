@@ -1,5 +1,12 @@
 # Documento de Arquitetura
 
+## Histórico de versões
+
+| Versão | Data       | Descrição | Autores |
+| ------ | ---------- | --------- | ------- |
+| 1.0    | 15/10/2023 | Abertura do documento | Pedro Cella |
+| 1.1    | 24/07/2024 | Adaptação para a nova versão mobile | Victor Gonçalves |
+
 ## Introdução
 
 Esse documento tem a finalidade de explicar sobre as decisões arquiteturais do projeto, nesse documento o foco será entender mais sobre como funcionará o sistema como um todo, ou seja, como é feita a interação do usuário com o produto, quais são os microsserviços e de que forma eles foram definidos, entre outras possíveis dúvidas que possam surgir.
@@ -85,9 +92,3 @@ O microsserviço de Saúde no aplicativo GEROcuidado desempenha um papel fundame
 
 O microsserviço de Saúde é essencial para o acompanhamento eficaz da saúde dos idosos e a gestão de rotinas de cuidado, garantindo que as métricas de saúde sejam registradas e monitoradas, as rotinas sejam cumpridas e as notificações sejam usadas para manter todos os envolvidos informados sobre as atividades necessárias para a saúde e o bem-estar dos idosos.
 
-## Histórico de versão
-
-| Versão | Data       | Descrição | Autores |
-| ------ | ---------- | --------- | ------- |
-| 1.0    | 15/10/2023 | Abertura do documento | Pedro Cella |
-| 1.1    | 24/07/2024 | Adaptação para a nova versão mobile | Victor Gonçalves |

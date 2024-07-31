@@ -1,6 +1,6 @@
 # Estrutura Analítica do Projeto - EAP
 
-## Versionamento
+## Histórico de versões
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0| 19/07/2024 | Criação do documento |[Ugor Brandão](https://github.com/ubrando) |

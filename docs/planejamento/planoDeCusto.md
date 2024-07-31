@@ -1,6 +1,6 @@
 # Plano de Gestão de Custos
 
-## Versionamento
+## Histórico de versões
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0| 13/07/2024 | Criação do documento | [Gustavo Abrantes](https://github.com/GustaaSZ) |
