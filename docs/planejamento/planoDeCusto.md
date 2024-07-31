@@ -6,6 +6,7 @@
 |1.0| 13/07/2024 | Criação do documento | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 |1.1| 15/07/2024 | Adição da planilha e do gráfico | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 |1.2| 17/07/2024 | Correção de alguns dados | [Gustavo Abrantes](https://github.com/GustaaSZ) |
+|1.3| 30/07/2024 | Atualização da planilha | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 
 ## Custos
 
@@ -45,7 +46,8 @@ Para o custo dos equipamentos, será considerado um notebook com processador Int
 
 Para melhor detalhado dos custos, foi elaborada uma planilha com os custos totais do MVP e do projeto completo.
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRt41IIHqR2KqZQL-ta9rCrkjuMNtcsOp0NsejgdpwE4otup4BJjkir_WcJpcOAvIKZdLfZttTY1Kms/pubhtml?widget=true&amp;headers=false" width="100%" width= "100" height="500" frameborder="1" scrolling="no"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRt41IIHqR2KqZQL-ta9rCrkjuMNtcsOp0NsejgdpwE4otup4BJjkir_WcJpcOAvIKZdLfZttTY1Kms/pubhtml?widget=true&amp;headers=false"
+width="100%" width= "100" height="500" frameborder="1" scrolling="no"></iframe>
 
 ## Gráficos
 
