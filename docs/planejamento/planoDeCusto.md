@@ -7,6 +7,7 @@
 |1.1| 15/07/2024 | Adição da planilha e do gráfico | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 |1.2| 17/07/2024 | Correção de alguns dados | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 |1.3| 30/07/2024 | Atualização da planilha | [Gustavo Abrantes](https://github.com/GustaaSZ) |
+|1.4| 17/08/2024 | Nova atualização dos dados da planilha | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 
 ## Custos
 
