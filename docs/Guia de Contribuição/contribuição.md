@@ -232,6 +232,72 @@ Durante a revisão, alguns pontos de atenção são importantes:
 - **Sugestões:** Se necessário, faça sugestões para melhorar o código.
 - **Aprovação:** Caso tudo esteja de acordo, aprove o PR.
 
+## User Stories (US)
+
+As User Stories (US) são uma forma ágil de capturar os requisitos de uma funcionalidade sob a perspectiva do usuário final. Elas descrevem a necessidade do usuário de forma simples e direta, permitindo que o time de desenvolvimento compreenda o objetivo final da funcionalidade.
+
+### Estrutura da US
+
+Cada US deve seguir a estrutura básica:
+
+```markdown
+Como <persona>, eu quero <necessidade>, para que <benefício>.
+```
+
+**Exemplo:**
+```markdown
+Como usuário autenticado, eu quero poder redefinir minha senha, para que eu possa acessar minha conta caso eu esqueça a senha atual.
+```
+
+### Criação de User Stories
+
+**Ao criar uma US, atente-se aos seguintes pontos:**
+
+1. **Persona:** Identifique o tipo de usuário para o qual a funcionalidade está sendo criada.
+2. **Necessidade:** Descreva claramente o que o usuário deseja fazer.
+3. **Benefício:** Explique o motivo ou o valor que essa funcionalidade traz para o usuário.
+4. **Critérios de Aceitação:** Liste os critérios que precisam ser atendidos para que a US seja considerada completa. Eles servem como um guia para a equipe de desenvolvimento e para o time de QA durante o processo de validação.
+
+### Exemplo de User Story Completa
+
+```markdown
+**US01 - Redefinir Senha**
+
+Como usuário autenticado, eu quero poder redefinir minha senha, para que eu possa acessar minha conta caso eu esqueça a senha atual.
+
+**Critérios de Aceitação:**
+- O usuário deve poder solicitar a redefinição de senha informando o e-mail cadastrado.
+- Um e-mail com um link para redefinição deve ser enviado para o usuário.
+- O link deve ser válido por 24 horas.
+- O usuário deve poder definir uma nova senha após clicar no link.
+- A nova senha deve atender aos critérios de segurança definidos (mínimo de 8 caracteres, incluindo letras maiúsculas, minúsculas e números).
+
+**Estimate:** 5 pontos
+```
+
+### Estimativa de Pontuação para US
+
+Assim como as Issues, as US também devem ter uma estimativa de pontuação com base na complexidade e no esforço necessário para a implementação. A pontuação será decidida em conjunto pelo time, utilizando ferramentas como o Planning Poker no ZenHub.
+
+### Criação de Pull Requests para US
+
+Ao concluir a implementação de uma US, crie um Pull Request (PR) seguindo as orientações descritas na seção de Pull Requests deste guia. Certifique-se de:
+
+- Mencionar a US correspondente no título do PR.
+- Descrever brevemente as alterações realizadas.
+- Incluir as referências às Issues que foram resolvidas durante a implementação da US.
+- Adicionar capturas de tela ou GIFs que demonstrem a funcionalidade implementada, se aplicável.
+
+### Revisão de User Stories
+
+Durante a revisão de uma US, preste atenção aos seguintes aspectos:
+
+- **Clareza da US:** A história está clara e compreensível?
+- **Critérios de Aceitação:** Todos os critérios foram implementados e validados?
+- **Teste:** A funcionalidade foi testada adequadamente?
+- **Documentação:** A documentação está atualizada de acordo com a nova funcionalidade?
+
+
 ## Padrões de Código
 
 Manter a consistência de estilo de código ajuda na legibilidade e manutenção do projeto. Alguns pontos a serem considerados incluem:
