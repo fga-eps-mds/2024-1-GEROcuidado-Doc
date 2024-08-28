@@ -7,6 +7,7 @@
 |1.1| 15/07/2024 | Adição da planilha e do gráfico | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 |1.2| 17/07/2024 | Correção de alguns dados | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 |1.3| 30/07/2024 | Atualização da planilha | [Gustavo Abrantes](https://github.com/GustaaSZ) |
+|1.4| 17/08/2024 | Nova atualização dos dados da planilha | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 
 ## Custos
 
@@ -16,7 +17,7 @@ De acordo com o <a href=./#referencias>Jornal da Unesp</a>, cada aluno de uma un
 
 **R$ 61.894,30 ÷ 12 meses ≈ R$ 5.157,86**
 
-Considerando que o curso de Engenharia de Software da Universidade de Brasília possui 232 créditos (15 horas-aula = 1 crédito), em um periodo de 10 semestres, é possível chegar no resultado de uma média de, aproximadamente, 46 créditos ou 690 horas por ano. Assim, chegamos ao valor de R$ 89,70 por hora para um estudante. Considerando que para cada semana do projeto serão despendidas, aproximadamente, 12,5 horas de foco para a disciplina de EPS/MDS, o valor individual semanal por membro é de R$ 1.121,25. Logo, o valor total por semana de 9 membros é de R$ 10.091,25
+Considerando que o curso de Engenharia de Software da Universidade de Brasília possui 232 créditos, em um periodo de 10 semestres, é possível chegar no resultado de uma média de, aproximadamente, 46 créditos ou 690 horas por ano. Assim, chegamos ao valor de R$ 89,70 por hora para um estudante. Considerando que para cada semana do projeto serão despendidas, aproximadamente, 12,5 horas de foco para a disciplina de EPS/MDS, o valor individual semanal por membro é de R$ 1.121,25. Logo, o valor total por semana de 9 membros é de R$ 10.091,25
 
 ### Internet
 
@@ -46,8 +47,7 @@ Para o custo dos equipamentos, será considerado um notebook com processador Int
 
 Para melhor detalhado dos custos, foi elaborada uma planilha com os custos totais do MVP e do projeto completo.
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRt41IIHqR2KqZQL-ta9rCrkjuMNtcsOp0NsejgdpwE4otup4BJjkir_WcJpcOAvIKZdLfZttTY1Kms/pubhtml?widget=true&amp;headers=false"
-width="100%" width= "100" height="500" frameborder="1" scrolling="no"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1AfbnaR35DlNhQVRTdZQjuMkAz1KyYZplQHarhOnHLr0/pubhtml?widget=true&amp;headers=false"width="100%" width= "100" height="500" frameborder="1" scrolling="no"></iframe>
 
 ## Gráficos
 
