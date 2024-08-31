@@ -21,26 +21,6 @@ Ao criar issues, atente-se às seguintes questões:
 - **Milestone:** Adicione a milestone referente à sprint em que o problema será trabalhado.
 - **Estimate:** Adicione uma estimativa de pontuação, conforme as definições descritas neste documento.
 
-### Definição de Estimate
-
-Defina uma estimativa de dificuldade (pontuação) para a issue, levando em consideração os seguintes critérios:
-
-| Pontuação | Critérios                                                                                       |
-|-----------|-------------------------------------------------------------------------------------------------|
-| 1         | Tarefa bem simples, possível de ser feita rapidamente                                            |
-| 2         | Tarefa simples que leva algumas horas                                                            |
-| 3         | Tarefa que pode levar algumas horas e necessita de alguma pesquisa                               |
-| 5         | Tarefa não tão simples, que requer pesquisa e deve levar alguns dias                             |
-| 8         | Tarefa complexa, que pode durar a semana toda                                                    |
-| 13        | Tarefa muito complexa, provavelmente levará mais que uma sprint; melhor rever e dividir em mais de uma issue |
-
-A pontuação da issue deverá ser votada utilizando a ferramenta de planning poker do ZenHub.
-
-![image](https://user-images.githubusercontent.com/35047444/134027168-e011b3ca-7185-48d2-bcba-0ef0aa8cae68.png)
-
-- **Para issues que envolvem apenas um time:** Todo o time deverá ser adicionado ao planning poker.
-- **Para issues que envolvem mais de um time:** Apenas os colaboradores diretamente envolvidos deverão ser adicionados ao planning poker.
-
 ## Branches
 
 Padronizar evita confusões e facilita a leitura e a procura por artefatos do projeto. Isso também se aplica à nomenclatura de _branches_. Por padrão, a nomenclatura de _branches_ deve obedecer ao seguinte formato:
