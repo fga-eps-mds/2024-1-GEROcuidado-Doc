@@ -48,6 +48,7 @@ nav:
     - Plano de Qualidade: planejamento/plano_de_qualidade.md
     - Plano de Comunicação: planejamento/plano_de_comunicacao.md
     - Metodologias: planejamento/metodologia.md
+    - Padrões da Comunidade: planejamento/padroes_da_comunidade.md
   - Gestão do Projeto:
     - Protótipo: produto/prototipo/prototipo.md
     - Backlog: gestaoDoProjeto/backlog.md
