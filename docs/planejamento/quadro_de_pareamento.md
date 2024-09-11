@@ -21,8 +21,9 @@ O quadro de pareamento é uma técnica de colaboração no desenvolvimento de so
 <ul>
   <li>3 EPS;</li>
   <li>6 MDS;</li>
+      <li>1 EPS e 6 MDS;</li>
 </ul>
 
 ## Quadro de Pareamento
 
-![Quadro_Pareamento](../assets/Pareamento.png)
+![Quadro_Pareamento](../assets/QuadroDePareamento.png)
