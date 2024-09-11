@@ -7,6 +7,7 @@
 | 06/04/2024 |  1.0   | Criação do documento | [Sebastian Zuzunaga](https://github.com/sebazac332) |
 | 07/04/2024 |  1.1   | Tabela de conhecimento | [Gustavo Abrantes ](https://github.com/GustaaSZ)  |
 | 27/07/2024 |  1.2   | Tabela de conhecimento | [Marcella Anderle ](https://github.com/marcellaanderle)  |
+| 27/07/2024 |  1.3   | Tabela de conhecimento | [Jessica Luiza ](https://github.com/Jkluiza)  |
 
 O quadro de conhecimento tem a função de monitorar a evolução do conhecimento dos integrantes de MDS e MPS com respeito às tecnologias utilizadas no projeto, sua implementação começa na semana 2 e é atualizado cada Sprint.
 
@@ -55,3 +56,30 @@ O quadro da semana 2 servirá para ver com que tecnologias já estão familiariz
 
 <iframe width="2000" height="500" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1kMXA2-AnbGmW9cHn5BuRvYgftUQBVeB3J6M1IS4noyk/edit?gid=1960919248#gid=1960919248"></iframe>
 
+## Quadro de Conhecimento da Sprint 2:
+
+<iframe width="2000" height="500" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1kMXA2-AnbGmW9cHn5BuRvYgftUQBVeB3J6M1IS4noyk/edit?gid=984880336#gid=984880336"></iframe>
+
+## Quadro de Conhecimento da Sprint 3:
+
+<iframe width="2000" height="500" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1kMXA2-AnbGmW9cHn5BuRvYgftUQBVeB3J6M1IS4noyk/edit?gid=1692675319#gid=1692675319"></iframe>
+
+## Quadro de Conhecimento da Sprint 4:
+
+<iframe width="2000" height="500" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1kMXA2-AnbGmW9cHn5BuRvYgftUQBVeB3J6M1IS4noyk/edit?gid=572010832#gid=572010832"></iframe>
+
+## Quadro de Conhecimento da Sprint 5:
+
+<iframe width="2000" height="500" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1kMXA2-AnbGmW9cHn5BuRvYgftUQBVeB3J6M1IS4noyk/edit?gid=609138643#gid=609138643"></iframe>
+
+## Quadro de Conhecimento da Sprint 6:
+
+<iframe width="2000" height="500" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1kMXA2-AnbGmW9cHn5BuRvYgftUQBVeB3J6M1IS4noyk/edit?gid=2062062493#gid=2062062493"></iframe>
+
+## Quadro de Conhecimento da Sprint 7:
+
+<iframe width="2000" height="500" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1kMXA2-AnbGmW9cHn5BuRvYgftUQBVeB3J6M1IS4noyk/edit?gid=1138540408#gid=1138540408"></iframe>
+
+## Quadro de Conhecimento da Sprint 8:
+
+<iframe width="2000" height="500" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1kMXA2-AnbGmW9cHn5BuRvYgftUQBVeB3J6M1IS4noyk/edit?gid=1446092272#gid=1446092272"></iframe>
