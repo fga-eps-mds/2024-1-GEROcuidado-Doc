@@ -96,8 +96,13 @@ Um Dicionário de Dados é uma referência essencial em gerenciamento de dados. 
 
 ### 2.5 Documento de Banco de dados
 
-O link contendo todos os documentos apresentados pode ser encontrado [aqui](https://docs.google.com/document/d/1Xqe3WFQjvw8OYEYdntZAu6HedWevR1Rj66IXbBPaCsA/edit).
+O link contendo todos os documentos apresentados pode ser encontrado [aqui](https://docs.google.com/document/d/1wameCClO1xjvBsK4lLwzSbmQ9_2L_t9leGTkZkLwbLg/edit?usp=sharing).
 
 ## Referências
 
 - https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/docs/produto/banco_de_dados.md
+- ELMASRI, R.; NAVATHE, S. B. **Sistemas de banco de dados**. 6. ed. São Paulo: Pearson Addison Wesley, 2011.
+- SERRANO, M. **Modelo Entidade-Relacionamento Parte 1**. Adaptado de SOUSA E., JUNIOR J.
+- SERRANO, M. **Modelo Entidade-Relacionamento Parte 2**. Adaptado de SOUSA E., JUNIOR J.
+- SERRANO, M. **MER-X Agregação**. Adaptado de SOUSA E., JUNIOR J.
+- SERRANO, M. **MER-X Generalização/Especialização**. Adaptado de SOUSA E., JUNIOR J.
