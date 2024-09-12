@@ -2,10 +2,11 @@
 
 ## Histórico de versões
 
-| Versão | Data       | Descrição | Autores |
-| ------ | ---------- | --------- | ------- |
-| 1.0    | 15/10/2023 | Abertura do documento | Pedro Cella |
+| Versão | Data       | Descrição | Autores          |
+|--------|------------| --------- |------------------|
+| 1.0    | 15/10/2023 | Abertura do documento | Pedro Cella      |
 | 1.1    | 24/07/2024 | Adaptação para a nova versão mobile | Victor Gonçalves |
+| 1.2    | 12/09/2024 | Reestruturação do projeto conforme descoberta de versão mobile já existente | Marcella Anderle |
 
 ## Introdução
 
