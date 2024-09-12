@@ -2,10 +2,11 @@
 
 ## Histórico de versões
 
-| Versão | Data       | Descrição | Autores |
-| ------ | ---------- | --------- | ------- |
-| 1.0    | 15/10/2023 | Abertura do documento | Pedro Cella |
+| Versão | Data       | Descrição | Autores          |
+|--------|------------| --------- |------------------|
+| 1.0    | 15/10/2023 | Abertura do documento | Pedro Cella      |
 | 1.1    | 24/07/2024 | Adaptação para a nova versão mobile | Victor Gonçalves |
+| 1.2    | 12/09/2024 | Reestruturação do projeto conforme descoberta de versão mobile já existente | Marcella Anderle |
 
 ## Introdução
 
@@ -15,32 +16,46 @@ Esse documento tem a finalidade de explicar sobre as decisões arquiteturais do 
 
 O GEROcuidado é um aplicativo projetado para auxiliar seus usuários, que incluem cuidadores formais e informais, idosos autônomos e familiares, na organização e acompanhamento da saúde dos idosos, seja como parte de suas responsabilidades de cuidador ou de sua própria família, como um pai ou uma mãe. No caso dos idosos autônomos, esse acompanhamento é realizado de si mesmo.
 
-O MVP acordado com os proprietarios do aplicativo (Enactus), foi que neste semestre 2024.1, o GEROcuidado será entregue como um aplicativo _mobile_ nativo (aplicativo baixável). A versão do aplicativo a ser lançada contemplará as seguintes funcionalidades:
+O MVP acordado com os proprietários do aplicativo (Enactus), foi que neste semestre 2024.1, o GEROcuidado será entregue como um aplicativo mobile nativo (aplicativo baixável). A versão do aplicativo a ser lançada contemplará as seguintes funcionalidades:
 
-* Login de usuário no aplicativo
-* Recuperação de senha
-* Cadastro de perfis segregados de idosos
-* Cadastro de remédios e alimentos consumidos pelo idoso
-* Cadastro de tarefas da rotina do idoso
-* Disponibilização do Fórum de forma online no navegador
-* Tela de visualização de rotina do idoso
-* Registro de métricas de saúde
-* Extração de relatórios de métricas de saúde
-* Visualização inteligente de métricas de saúde (_Dashboard_)
-* Edição de post no forum
-* Sistema de FAQ
+*	Login de usuário no aplicativo
+*	Recuperação de senha
+*	Cadastro de perfis segregados de idosos
+*	Cadastro de remédios e alimentos consumidos pelo idoso
+*	Cadastro de tarefas da rotina do idoso
+*	Disponibilização do Fórum de forma online no navegador
+*	Tela de visualização de rotina do idoso
+*	Registro de métricas de saúde
+*	Extração de relatórios de métricas de saúde
+*	Visualização inteligente de métricas de saúde (Dashboard)
+*	Edição de post no forum
+*	Sistema de FAQ
 
 Como possíveis incrementos:
 
-* Interagir com posts do fórum através de curtidas e comentários
-* Opção de visualização semanal das tarefas em caledário
-* Opção de visualização mensal das tarefas em caledário
-* Disponibilização do cadastro do idoso para diversas contas
-* Customização de notificações
-* Suporte do aplicativo
-* Sistema de check-in e check-out na casa do idoso
-* Login por biometria
-* Acessar aplicativo usando outras plataformas como login (Google, Facebook, etc.)
+*	Interagir com posts do fórum através de curtidas e comentários
+*	Opção de visualização semanal das tarefas em caledário
+*	Opção de visualização mensal das tarefas em caledário
+*	Disponibilização do cadastro do idoso para diversas contas
+*	Customização de notificações
+*	Suporte do aplicativo
+*	Sistema de check-in e check-out na casa do idoso
+*	Login por biometria
+*	Acessar aplicativo usando outras plataformas como login (Google, Facebook, etc.)
+
+No entanto, no mês de agosto, foi descoberto que já havia um aplicativo com as funcionalidades prontas, o que mudou a rota do desenvolvimento por completo. Por isso, foi realizado as atualizações abaixo:
+
+*	Informações de Idoso, Rotina e Métricas: Estão configuradas para buscar dados a partir de um banco local do celular.
+*	Informações de Usuário: Também buscam no servidor além de apontar pro banco local do celular.
+
+Além disso, as seguintes melhorias foram adicionadas ao aplicativo existente:
+
+*	Cadastrar, visualizar, editar e apagar perfis de idosos offline.
+*	Editar informações do perfil de usuário offline.
+*	Cadastrar medicamentos e alimentos no perfil de idoso.
+*	Resolução de bugs de experiência de usuário.
+*	Cadastrar, visualizar, editar e apagar métricas de um idoso.
+*	Cadastrar, visualizar, editar e apagar tarefas da rotina do idoso.
 
 ## Arquitetura
 
