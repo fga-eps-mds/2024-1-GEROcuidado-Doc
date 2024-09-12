@@ -86,6 +86,8 @@ nav:
       - Reunião Geral 24/07: semanas/semana_6/reuniao_geral_24_07.md
       - Planning: sprints/sprint_1/planning.md
       - Review: sprints/sprint_1/review.md
+  - Encerramento:
+    - Relatorio de encerramento do projeto: encerramento/relatorio.md
 
 
 plugins:
