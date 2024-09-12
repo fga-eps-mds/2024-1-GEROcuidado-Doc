@@ -39,7 +39,7 @@ Neste documento de encerramento será feita uma análise do que planejou a equip
 
 ## Qualidade
 
-Com o objetivo de manter a qualidade do código do trabalho, foram realizados diversos testes, cada um deles garantindo o correto funcionamento de um componente do trabalho. Foi estabelecido como objetivo (...)
+Com o objetivo de manter a qualidade do código do trabalho, foram realizados diversos testes, cada um deles garantindo o correto funcionamento de um componente do trabalho. Atualmente o projeto tem uma cobertura de teste de 62.48%
 
 ## Riscos
 
