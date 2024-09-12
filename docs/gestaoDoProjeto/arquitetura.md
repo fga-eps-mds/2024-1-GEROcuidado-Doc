@@ -15,32 +15,6 @@ Esse documento tem a finalidade de explicar sobre as decisões arquiteturais do 
 
 O GEROcuidado é um aplicativo projetado para auxiliar seus usuários, que incluem cuidadores formais e informais, idosos autônomos e familiares, na organização e acompanhamento da saúde dos idosos, seja como parte de suas responsabilidades de cuidador ou de sua própria família, como um pai ou uma mãe. No caso dos idosos autônomos, esse acompanhamento é realizado de si mesmo.
 
-O MVP acordado com os proprietarios do aplicativo (Enactus), foi que neste semestre 2024.1, o GEROcuidado será entregue como um aplicativo _mobile_ nativo (aplicativo baixável). A versão do aplicativo a ser lançada contemplará as seguintes funcionalidades:
-
-* Login de usuário no aplicativo
-* Recuperação de senha
-* Cadastro de perfis segregados de idosos
-* Cadastro de remédios e alimentos consumidos pelo idoso
-* Cadastro de tarefas da rotina do idoso
-* Disponibilização do Fórum de forma online no navegador
-* Tela de visualização de rotina do idoso
-* Registro de métricas de saúde
-* Extração de relatórios de métricas de saúde
-* Visualização inteligente de métricas de saúde (_Dashboard_)
-* Edição de post no forum
-* Sistema de FAQ
-
-Como possíveis incrementos:
-
-* Interagir com posts do fórum através de curtidas e comentários
-* Opção de visualização semanal das tarefas em caledário
-* Opção de visualização mensal das tarefas em caledário
-* Disponibilização do cadastro do idoso para diversas contas
-* Customização de notificações
-* Suporte do aplicativo
-* Sistema de check-in e check-out na casa do idoso
-* Login por biometria
-* Acessar aplicativo usando outras plataformas como login (Google, Facebook, etc.)
 
 ## Arquitetura
 
