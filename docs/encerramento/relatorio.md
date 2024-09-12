@@ -26,6 +26,12 @@ Neste documento de encerramento será feita uma análise do que planejou a equip
 
 #### Executadas e Aceitas pelo Cliente
 
+- [US01] Criar perfil de usuário
+- [US02] Editar informações pessoais
+- [US03] Cadastrar, visualizar, editar e apagar perfis de idosos
+- [US04] Cadastrar medicamentos e alimentos no perfil do idoso
+- [US05] Cadastrar, visualizar, editar e apagar tarefas da rotina do idoso
+
 ## Custo
 
 <iframe src="https://docs.google.com/spreadsheets/d/1AfbnaR35DlNhQVRTdZQjuMkAz1KyYZplQHarhOnHLr0/pubhtml?widget=true&amp;headers=false"width="100%" width= "100" height="500" frameborder="1" scrolling="no"></iframe>
