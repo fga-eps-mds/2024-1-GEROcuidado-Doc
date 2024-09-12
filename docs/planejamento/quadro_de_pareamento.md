@@ -17,7 +17,7 @@ O quadro de pareamento é uma técnica de colaboração no desenvolvimento de so
     <li>1 EPS;</li>
 </ul>
 
-### Sprint 2:
+### Sprint 2 à 8:
 <ul>
   <li>3 EPS;</li>
   <li>6 MDS;</li>
