@@ -5,11 +5,12 @@
 | Versão | Data       | Descrição             | Autores     |
 | ------ | ---------- | --------------------- | ----------- |
 | 1.0    | 11/09/2024 | Abertura do documento | [Sebastián Zuzunaga](https://github.com/sebazac332) |
+| 1.1    | 12/09/2024 | Adição de US executadas | [Sebastián Zuzunaga](https://github.com/sebazac332) |
 
 ## Introdução
 Neste documento de encerramento será feita uma análise do que planejou a equipe e o que foi realizado durante o desenvolvimento do projeto. Alguns aspectos que serão vistos são: backlog, custo, qualidade e riscos. Esta análise servirá para ilustrar a perspectiva inicial da equipe e o que foi efetivamente concluído ao longo da execução do projeto e guia para futuros desenvolvedores do projeto fornecendo insights sobre o planejamento e execução da solução apresentada.
 
-## Backlog
+## Backlog Deprecado
 ### Planejado
 #### MVP
 - [US01] Criar perfil de usuário
@@ -24,7 +25,25 @@ Neste documento de encerramento será feita uma análise do que planejou a equip
 - [US08] Tutorial explicativo das funcionalidades do aplicativo
 - [US09] Moderção das publicações do fórum
 
+## Backlog Novo
+### Planejado
+#### MVP
+- EH01 - Editar informações do perfil de usuário offline
+- EH02 - Cadastrar medicamentos e alimentos no perfil do idoso
+- EH03 - Cadastrar, visualizar, editar e apagar perfis de idosos offline
+- EH04 - Cadastrar, visualizar, editar e apagar métricas de um idoso
+- EH05 - Cadastrar, visualizar, editar e apagar tarefas da rotina do idoso
+- BUG01 - Resolver bugs de experiencia de usuário
+
+#### Executadas
+- EH01 - Editar informações do perfil de usuário offline
+- EH03 - Cadastrar, visualizar, editar e apagar perfis de idosos offline
+- EH04 - Cadastrar, visualizar, editar e apagar métricas de um idoso
+- EH05 - Cadastrar, visualizar, editar e apagar tarefas da rotina do idoso
+- BUG01 - Resolver bugs de experiencia de usuário
+
 #### Executadas e Aceitas pelo Cliente
+- Nenhuma
 
 ## Custo
 
@@ -32,7 +51,7 @@ Neste documento de encerramento será feita uma análise do que planejou a equip
 
 ## Qualidade
 
-Com o objetivo de manter a qualidade do código do trabalho, foram realizados diversos testes, cada um deles garantindo o correto funcionamento de um componente do trabalho. Foi estabelecido como objetivo (...)
+Com o objetivo de manter a qualidade do código do trabalho, foram realizados diversos testes, cada um deles garantindo o correto funcionamento de um componente do trabalho. Atualmente o projeto tem uma cobertura de teste de 62.48%
 
 ## Riscos
 

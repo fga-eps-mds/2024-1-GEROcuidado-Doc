@@ -90,6 +90,7 @@ nav:
       - Review: sprints/sprint_1/review.md
   - Encerramento:
     - Relatorio de encerramento do projeto: encerramento/relatorio.md
+    - Postmortem: encerramento/post_mortem.md
 
 
 plugins:

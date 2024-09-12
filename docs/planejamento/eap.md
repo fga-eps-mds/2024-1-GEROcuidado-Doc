@@ -4,7 +4,7 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0| 19/07/2024 | Criação do documento |[Ugor Brandão](https://github.com/ubrando) |
-
+|1.1| 12/09/2024 | Atualização do documento |[Sebastián Zuzunaga](https://github.com/sebazac332) |
 
 **O que é a EAP?**
 
@@ -31,7 +31,7 @@ Ao estruturar o projeto em componentes menores e mais gerenciáveis, a EAP forne
 
 ## EAP - Projeto GeroCuidado
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FWz1kSpMFHnAdsunO8KyUTo%2FEAP-GeroCuidado_24_01%3Fnode-id%3D0-1%26t%3DXy5OJvw1L0NHEt32-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/WoHG81281HQB6sDtOZAWT5/EAP-GeroCuidado_24_01-V2?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
 ## Referências
 
