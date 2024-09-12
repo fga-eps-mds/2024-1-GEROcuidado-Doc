@@ -5,6 +5,7 @@
 | Versão | Data       | Descrição             | Autores     |
 | ------ | ---------- | --------------------- | ----------- |
 | 1.0    | 11/09/2024 | Abertura do documento | [Sebastián Zuzunaga](https://github.com/sebazac332) |
+| 1.1    | 12/09/2024 | Adição de US executadas | [Sebastián Zuzunaga](https://github.com/sebazac332) |
 
 ## Introdução
 Neste documento de encerramento será feita uma análise do que planejou a equipe e o que foi realizado durante o desenvolvimento do projeto. Alguns aspectos que serão vistos são: backlog, custo, qualidade e riscos. Esta análise servirá para ilustrar a perspectiva inicial da equipe e o que foi efetivamente concluído ao longo da execução do projeto e guia para futuros desenvolvedores do projeto fornecendo insights sobre o planejamento e execução da solução apresentada.
