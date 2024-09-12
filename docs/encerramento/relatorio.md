@@ -6,32 +6,28 @@
 | ------ | ---------- | --------------------- | ----------- |
 | 1.0    | 11/09/2024 | Abertura do documento | [Sebastián Zuzunaga](https://github.com/sebazac332) |
 | 1.1    | 12/09/2024 | Adição de US executadas | [Sebastián Zuzunaga](https://github.com/sebazac332) |
+| 1.2    | 12/09/2024 | Atualização do documento | [Sebastián Zuzunaga](https://github.com/sebazac332) |
 
 ## Introdução
 Neste documento de encerramento será feita uma análise do que planejou a equipe e o que foi realizado durante o desenvolvimento do projeto. Alguns aspectos que serão vistos são: backlog, custo, qualidade e riscos. Esta análise servirá para ilustrar a perspectiva inicial da equipe e o que foi efetivamente concluído ao longo da execução do projeto e guia para futuros desenvolvedores do projeto fornecendo insights sobre o planejamento e execução da solução apresentada.
 
 ## Backlog
 ### Planejado
-#### MVP
-- [US01] Criar perfil de usuário
-- [US02] Editar informações pessoais
-- [US03] Cadastrar, visualizar, editar e apagar perfis de idosos
-- [US04] Cadastrar medicamentos e alimentos no perfil do idoso
-- [US05] Cadastrar, visualizar, editar e apagar tarefas da rotina do idoso
-- [US06] Cadastrar, visualizar, editar e apagar métricas de um idoso
 
-#### Incremento
-- [US07] Criar, visualizar, editar e apagar postagens no fórum
-- [US08] Tutorial explicativo das funcionalidades do aplicativo
-- [US09] Moderção das publicações do fórum
+- [E01] Editar informações de perfil de usuário offline
+- [E02] Cadastrar medicamentos e alimentos no perfil do idoso
+- [E03] Cadastrar, visualizar, editar e apagar perfis de idosos offline
+- [E04] Cadastrar, visualizar, editar e apagar métricas de idoso
+- [E05] Cadastrar, visualizar, editar e apagar tarefas de idoso
+- [BUG01] Resolver bugs de experiência de usuario
 
-#### Executadas e Aceitas pelo Cliente
+#### Executadas
 
-- [US01] Criar perfil de usuário
-- [US02] Editar informações pessoais
-- [US03] Cadastrar, visualizar, editar e apagar perfis de idosos
-- [US04] Cadastrar medicamentos e alimentos no perfil do idoso
-- [US05] Cadastrar, visualizar, editar e apagar tarefas da rotina do idoso
+- [E01] Editar informações de perfil de usuário offline
+- [E03] Cadastrar, visualizar, editar e apagar perfis de idosos offline
+- [E04] Cadastrar, visualizar, editar e apagar métricas de idoso
+- [E05] Cadastrar, visualizar, editar e apagar tarefas de idoso
+- [BUG01] Resolver bugs de experiência de usuario
 
 ## Custo
 

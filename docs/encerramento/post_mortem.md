@@ -5,6 +5,7 @@
 | Versão | Data       | Descrição             | Autores     |
 | ------ | ---------- | --------------------- | ----------- |
 | 1.0    | 12/09/2024 | Abertura do documento | [Sebastián Zuzunaga](https://github.com/sebazac332) |
+| 1.1    | 12/09/2024 | Atualização do documento | [Sebastián Zuzunaga](https://github.com/sebazac332) |
 
 ## Introdução
 
@@ -12,14 +13,22 @@ O presente documento tem como finalidade compartilhar as experiências vividas p
 
 ## Pontos Fortes
 
-- Cobertura do escopo do MVP.
-- Reuniões constantes durante a maior parte do periodo de desenvolvimento.
+- Experiência de como é ter um cliente real
+- Resiliência para superar empecilhos
+- Entrega do app offline
+- Muitos aprendizados de MDS
+    - Tecnologias novas (Git, Docker, React Native)
+    - Metodologias
 
 ## Pontos Fracos
 
-- Não tivemos tempo hábil para terminar todos os incrementos.
-- Comunicação tornou-se fraca no final do processo de desenvolvimento.
-- Dificuldade em se adaptar ao novo escopo do projeto.
+- Ambiente de desenvolvimento dos membros de MDS.
+- Máquina com as especificações mínimas definidas pelo plano de custos.
+- Replanejamento do projeto na metade do desenvolvimento.
+- Imprevistos com o time.
+- Poucos integrantes de EPS.
+- Sobrecarga no fim do projeto.
+- Motivação.
 
 ## Aprendizado
 
