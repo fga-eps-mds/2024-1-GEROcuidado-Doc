@@ -48,6 +48,7 @@ nav:
     - Plano de Qualidade: planejamento/plano_de_qualidade.md
     - Plano de Comunicação: planejamento/plano_de_comunicacao.md
     - Metodologias: planejamento/metodologia.md
+    - Padrões da Comunidade: planejamento/padroes_da_comunidade.md
   - Gestão do Projeto:
     - Protótipo: produto/prototipo/prototipo.md
     - Backlog: gestaoDoProjeto/backlog.md
@@ -86,6 +87,8 @@ nav:
       - Reunião Geral 24/07: semanas/semana_6/reuniao_geral_24_07.md
       - Planning: sprints/sprint_1/planning.md
       - Review: sprints/sprint_1/review.md
+  - Encerramento:
+    - Relatorio de encerramento do projeto: encerramento/relatorio.md
 
 
 plugins:
