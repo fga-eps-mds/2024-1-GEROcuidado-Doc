@@ -2,7 +2,7 @@
 
 |    Data    | Versão |      Descrição       |                     Autor                     |
 |:----------:|:------:|:--------------------:|:---------------------------------------------:|
-| 17/09/2024 |  1.1   | Reunião extra com o professor | [Gustavo Abrantes](https://github.com/GustaaSZ) |
+| 17/09/2024 |  1.0   | Reunião extra com o professor | [Gustavo Abrantes](https://github.com/GustaaSZ) |
 
 ## Pauta
 
