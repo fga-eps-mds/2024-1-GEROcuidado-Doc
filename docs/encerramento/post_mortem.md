@@ -44,11 +44,12 @@ Após muita reflexão e debate, optamos por dar continuidade ao projeto GeroCuid
 Para fornecer uma base inicial aos colegas do próximo semestre, a equipe compilou uma lista de pendências do projeto.
 
 - Implementação da interação com o fórum (comentários, likes)
-- Maior aderência do protótipo, botões e telas levemente diferentes. Ex:
-[Header de idoso diferente do que está no app]
-![image](https://github.com/user-attachments/assets/2d3a9a13-469c-4a49-8a83-3e58bcd88d37)
-[Tela de falha na conexão ao acessar o fórum offline]
+- Maior aderência do protótipo, botões e telas levemente diferentes. Ex:<br>
+[Header de idoso diferente do que está no app]<br>
+![image](https://github.com/user-attachments/assets/2d3a9a13-469c-4a49-8a83-3e58bcd88d37)<br>
+[Tela de falha na conexão ao acessar o fórum offline]<br>
 ![image](https://github.com/user-attachments/assets/6d67e7d2-abb9-4233-8415-783a11c71cfe)
+
 - Funcionalidade de fazer download das métricas e rotina do idoso, o ideal seria fazer de forma que fizesse o download em pdf ou exportasse as informações para serem compartilhadas de forma organizada, entre um determinado intervalo de tempo. Ex: Baixar métricas de pressão sanguínea do último mês; Baixar todas as métricas da última semana.
 - **TO-DO: Explicar a parte do endpoint único e como pode ser melhorado**
 
