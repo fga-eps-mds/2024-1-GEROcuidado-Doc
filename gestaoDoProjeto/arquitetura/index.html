@@ -1,0 +1,2104 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../backlog/">
+      
+      
+        <link rel="next" href="../ferramentas/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.2.8">
+    
+    
+      
+        <title>Documento de Arquitetura - GEROcuidado</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#fff" data-md-color-accent="#0B4D9B">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documento-de-arquitetura" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="GEROcuidado" class="md-header__button md-logo" aria-label="GEROcuidado" data-md-component="logo">
+      
+  <img src="../../assets/gero.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GEROcuidado
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Documento de Arquitetura
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fga-eps-mds/2024-1-GEROcuidado-Doc" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2024-1-GEROcuidado-Doc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/eap/" class="md-tabs__link">
+          
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../produto/prototipo/prototipo/" class="md-tabs__link">
+          
+  
+  Gestão do Projeto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../lean_inception/lean_inception/" class="md-tabs__link">
+          
+  
+  Lean Inception
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../dojos/git/" class="md-tabs__link">
+          
+  
+  Dojôs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../semanas/semana_1/resumo_semana_1/" class="md-tabs__link">
+          
+  
+  Semanas e sprints
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../encerramento/relatorio/" class="md-tabs__link">
+          
+  
+  Encerramento
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="GEROcuidado" class="md-nav__button md-logo" aria-label="GEROcuidado" data-md-component="logo">
+      
+  <img src="../../assets/gero.png" alt="logo">
+
+    </a>
+    GEROcuidado
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fga-eps-mds/2024-1-GEROcuidado-Doc" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2024-1-GEROcuidado-Doc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/eap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EAP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/quadro_de_disponibilidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de Disponibilidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/quadro_de_conhecimentos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de Conhecimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/quadro_de_pareamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de Pareamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/planoDeCusto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Gestão de Custos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/plano_de_ger_riscos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Gestão de Riscos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/plano_de_qualidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Qualidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/plano_de_comunicacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Comunicação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/metodologia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metodologias
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/padroes_da_comunidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Padrões da Comunidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Gestão do Projeto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Gestão do Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/prototipo/prototipo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Documento de Arquitetura
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Documento de Arquitetura
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de versões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escopo" class="md-nav__link">
+    Escopo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arquitetura" class="md-nav__link">
+    Arquitetura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frontend" class="md-nav__link">
+    Frontend
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsservico-usuario" class="md-nav__link">
+    Microsserviço Usuário
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsservico-forum" class="md-nav__link">
+    Microsserviço Fórum
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsservico-saude" class="md-nav__link">
+    Microsserviço Saúde
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../doc_banco/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documento de Banco de Dados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../estilo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de Estilo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia_contribuicao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de Contribuição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../codigo_de_conduta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Código de Conduta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monitoramento/EVM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EVM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lean Inception
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Lean Inception
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/lean_inception/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lean Inception
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/kickoff/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kick-off
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dojôs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Dojôs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dojos/git/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dojô Git/GitHub
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dojos/metodologias_ageis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dojô Metodologias Ágeis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dojos/guia_instalacao_wsl2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de instalação WSL2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semanas e sprints
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Semanas e sprints
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_1" >
+        
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_1/resumo_semana_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resumo semana 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_2/reuniao_geral_27_03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 27/03
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_3/reuniao_po_03_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 03/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_3/reuniao_po_04_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 04/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_4/reuniao_po_10_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 10/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_5" >
+        
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 5
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_5/reuniao_geral_19_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 19/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_5/reuniao_geral_24_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 24/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_5/reuniao_geral_17_07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 17/07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_6" >
+        
+          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_6/reuniao_geral_24_07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 24/07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sprints/sprint_1/planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sprints/sprint_1/review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Review
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Encerramento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Encerramento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encerramento/relatorio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relatorio de encerramento do projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encerramento/post_mortem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Postmortem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de versões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escopo" class="md-nav__link">
+    Escopo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arquitetura" class="md-nav__link">
+    Arquitetura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frontend" class="md-nav__link">
+    Frontend
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsservico-usuario" class="md-nav__link">
+    Microsserviço Usuário
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsservico-forum" class="md-nav__link">
+    Microsserviço Fórum
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsservico-saude" class="md-nav__link">
+    Microsserviço Saúde
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="documento-de-arquitetura">Documento de Arquitetura</h1>
+<h2 id="historico-de-versoes">Histórico de versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autores</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>15/10/2023</td>
+<td>Abertura do documento</td>
+<td>Pedro Cella</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>24/07/2024</td>
+<td>Adaptação para a nova versão mobile</td>
+<td>Victor Gonçalves</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>12/09/2024</td>
+<td>Reestruturação do projeto conforme descoberta de versão mobile já existente</td>
+<td>Marcella Anderle</td>
+</tr>
+</tbody>
+</table>
+<h2 id="introducao">Introdução</h2>
+<p>Esse documento tem a finalidade de explicar sobre as decisões arquiteturais do projeto, nesse documento o foco será entender mais sobre como funcionará o sistema como um todo, ou seja, como é feita a interação do usuário com o produto, quais são os microsserviços e de que forma eles foram definidos, entre outras possíveis dúvidas que possam surgir.</p>
+<h2 id="escopo">Escopo</h2>
+<p>O GEROcuidado é um aplicativo projetado para auxiliar seus usuários, que incluem cuidadores formais e informais, idosos autônomos e familiares, na organização e acompanhamento da saúde dos idosos, seja como parte de suas responsabilidades de cuidador ou de sua própria família, como um pai ou uma mãe. No caso dos idosos autônomos, esse acompanhamento é realizado de si mesmo.</p>
+<p>O MVP acordado com os proprietários do aplicativo (Enactus), foi que neste semestre 2024.1, o GEROcuidado será entregue como um aplicativo mobile nativo (aplicativo baixável). A versão do aplicativo a ser lançada contemplará as seguintes funcionalidades:</p>
+<ul>
+<li>Login de usuário no aplicativo</li>
+<li>Recuperação de senha</li>
+<li>Cadastro de perfis segregados de idosos</li>
+<li>Cadastro de remédios e alimentos consumidos pelo idoso</li>
+<li>Cadastro de tarefas da rotina do idoso</li>
+<li>Disponibilização do Fórum de forma online no navegador</li>
+<li>Tela de visualização de rotina do idoso</li>
+<li>Registro de métricas de saúde</li>
+<li>Extração de relatórios de métricas de saúde</li>
+<li>Visualização inteligente de métricas de saúde (Dashboard)</li>
+<li>Edição de post no forum</li>
+<li>Sistema de FAQ</li>
+</ul>
+<p>Como possíveis incrementos:</p>
+<ul>
+<li>Interagir com posts do fórum através de curtidas e comentários</li>
+<li>Opção de visualização semanal das tarefas em caledário</li>
+<li>Opção de visualização mensal das tarefas em caledário</li>
+<li>Disponibilização do cadastro do idoso para diversas contas</li>
+<li>Customização de notificações</li>
+<li>Suporte do aplicativo</li>
+<li>Sistema de check-in e check-out na casa do idoso</li>
+<li>Login por biometria</li>
+<li>Acessar aplicativo usando outras plataformas como login (Google, Facebook, etc.)</li>
+</ul>
+<p>No entanto, no mês de agosto, foi descoberto que já havia um aplicativo com as funcionalidades prontas, o que mudou a rota do desenvolvimento por completo. Por isso, foi realizado as atualizações abaixo:</p>
+<ul>
+<li>Informações de Idoso, Rotina e Métricas: Estão configuradas para buscar dados a partir de um banco local do celular.</li>
+<li>Informações de Usuário: Também buscam no servidor além de apontar pro banco local do celular.</li>
+</ul>
+<p>Além disso, as seguintes melhorias foram adicionadas ao aplicativo existente:</p>
+<ul>
+<li>Cadastrar, visualizar, editar e apagar perfis de idosos offline.</li>
+<li>Editar informações do perfil de usuário offline.</li>
+<li>Cadastrar medicamentos e alimentos no perfil de idoso.</li>
+<li>Resolução de bugs de experiência de usuário.</li>
+<li>Cadastrar, visualizar, editar e apagar métricas de um idoso.</li>
+<li>Cadastrar, visualizar, editar e apagar tarefas da rotina do idoso.</li>
+</ul>
+<h2 id="arquitetura">Arquitetura</h2>
+<p>A arquitetura abaixo ilustra a forma como irá funcionar todas as partes, sendo elas o Frontend, onde ocorre o input através da interface de usuário, após esse input, caso o aplicativo esteja conectado à internet é encaminhado para o microsserviço especificado, sendo eles o Microsserviço Usuário atrelado as funcionalidades de CRUD quanto aos usuários e perfis de usuário, Microsserviço Fórum associado a parte do fórum, publicações, like e comentário e finalmente o  Microsserviço Saúde, responsável pelas informações de saúde do idoso, como pressão, oxigenação do sangue, entre outros. Além disso temos os bancos de cada microsserviços, responsável por armazenar todas essas informações. Abaixo a arquitetura ilustrando todos esses pedaços:</p>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FykLG7DtlsVt4DjnEKsu2Q5%2FArquitetura%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DP48ifoDUxR7LdiIy-1" allowfullscreen></iframe>
+
+<h2 id="frontend">Frontend</h2>
+<p>O front-end do GEROcuidado é uma aplicação nativa android, que poderá ser baixada e instalada diretamente nos smartphones dos usuários. A aplicação é construída de tal forma que poderá ser usada com e sem conexão com a internet. Os serviços descritos abaixo servem como uma nuvem de dados para o que o usuário já consegue realizar no aplicativo.</p>
+<p>O front-end é desenvolvido em <a href="https://reactnative.dev/">React Native</a> utilizando Javascript como linguagem principal. O banco de dados utilizado é o <a href="https://watermelondb.dev/docs">WatermelonDB</a>, que utiliza como recurso o próprio SQLite disponibilizado no Android.</p>
+<h2 id="microsservico-usuario">Microsserviço Usuário</h2>
+<p>O microsserviço de Usuário no aplicativo GEROcuidado desempenha um papel essencial na autenticação e gestão de usuários, abrangendo cuidadores formais, idosos autônomos e familiares. Este microsserviço oferece funcionalidades fundamentais relacionadas ao registro e gerenciamento de contas de usuário, permitindo que os usuários acessem as diversas funcionalidades do sistema. Suas principais funcionalidades incluem:</p>
+<ol>
+<li><strong>CRUD de Usuário (Create, Read, Update, Delete):</strong> Os cuidadores formais, idosos autônomos e familiares têm a capacidade de se registrar na plataforma, fornecendo informações pessoais, como nome, endereço de e-mail, senha segura e outros detalhes relevantes. Esse processo de registro é fundamental para criar uma conta no aplicativo, permitindo o acesso às funcionalidades e recursos disponíveis.</li>
+</ol>
+<p>Além disso, o microsserviço de Usuário também se concentra em questões de segurança, implementando políticas de senhas robustas e fornecendo uma funcionalidade de recuperação de senha para garantir a proteção dos dados dos usuários. Isso ajuda a garantir que apenas usuários autorizados tenham acesso ao sistema e que suas informações estejam protegidas.</p>
+<p>Em resumo, o microsserviço de Usuário é a pedra angular da autenticação e do gerenciamento de contas de usuário no aplicativo GEROcuidado, permitindo que cuidadores, idosos autônomos e familiares acessem e utilizem as funcionalidades do sistema de forma segura e eficiente.</p>
+<h2 id="microsservico-forum">Microsserviço Fórum</h2>
+<p>O microsserviço de Fórum no aplicativo GEROcuidado desempenha um papel crucial na interação e comunicação entre os usuários, que incluem cuidadores formais, cuidadores informais, idosos autônomos e familiares. Este microsserviço é projetado para fornecer funcionalidades relacionadas ao compartilhamento de informações, discussões e interações no fórum do aplicativo. Suas principais funcionalidades incluem:</p>
+<ol>
+<li>
+<p><strong>CRUD de Publicação no Fórum:</strong> Os usuários, que podem ser cuidadores formais, cuidadores informais, idosos autônomos ou familiares, têm a capacidade de criar, ler, atualizar e excluir (CRUD) publicações no fórum. Isso permite que os usuários compartilhem informações, façam perguntas, forneçam dicas ou discutam tópicos relacionados ao cuidado de idosos.</p>
+</li>
+<li>
+<p><strong>Moderação de Publicações:</strong> O microsserviço de Fórum também inclui funcionalidades de moderação. Os moderadores, designados para garantir a qualidade e o respeito no fórum, têm a capacidade de revisar e moderar as publicações. Isso inclui a capacidade de aprovar, editar ou excluir publicações para evitar informações imprecisas ou conteúdo inadequado.</p>
+</li>
+<li>
+<p><strong>Interação com Publicações:</strong> Além das funcionalidades CRUD, os usuários têm a capacidade de interagir com as publicações no fórum. Eles podem "curtir" publicações (likes) e deixar comentários para criar discussões e promover a interação entre os membros da comunidade.</p>
+</li>
+</ol>
+<p>Através do microsserviço de Fórum, o aplicativo GEROcuidado promove uma comunidade de usuários onde cuidadores formais, cuidadores informais, idosos autônomos e familiares podem trocar informações, apoio e experiências, promovendo um ambiente de aprendizado e colaboração. O foco na moderação garante que o fórum permaneça informativo e respeitoso.</p>
+<h2 id="microsservico-saude">Microsserviço Saúde</h2>
+<p>O microsserviço de Saúde no aplicativo GEROcuidado desempenha um papel fundamental na gestão e acompanhamento da saúde dos idosos, cuidadores formais, cuidadores informais e familiares. Este microsserviço é projetado para fornecer funcionalidades relacionadas ao registro, acompanhamento e gerenciamento de informações de saúde, bem como rotinas de cuidados. Suas principais funcionalidades incluem:</p>
+<ol>
+<li>
+<p><strong>CRUD de Informações de Saúde do Idoso:</strong> Os cuidadores formais, cuidadores informais, idosos autônomos e familiares têm a capacidade de registrar, atualizar, visualizar e apagar informações de saúde, como métricas vitais (por exemplo, frequência cardíaca, oxigenação do sangue) e outras informações relevantes para o acompanhamento da saúde. Isso permite que os usuários acompanhem de perto a saúde dos idosos sob seus cuidados ou suas próprias métricas de saúde.</p>
+</li>
+<li>
+<p><strong>CRUD de Rotina:</strong> Os cuidadores, tanto formais quanto informais, podem cadastrar, visualizar, editar e remover informações sobre a rotina dos idosos que cuidam. Isso inclui informações sobre medicamentos, atividades físicas e alimentação, permitindo o controle dos horários e o cumprimento das necessidades específicas de cada idoso. Além disso, os idosos independentes também têm a opção de gerenciar sua própria rotina, registrando informações sobre medicamentos, atividades físicas e alimentação para serem lembrados dos horários.</p>
+</li>
+<li>
+<p><strong>Criação de Notificações:</strong> Os usuários podem receber notificações do aplicativo para lembrá-los de realizar atividades cadastradas, como tomar medicamentos, realizar exercícios ou seguir uma dieta específica. Isso ajuda a garantir que as tarefas de cuidado sejam cumpridas de forma consistente.</p>
+</li>
+<li>
+<p><strong>Adição de Agenda/Calendário:</strong> Os cuidadores podem agendar tarefas em um calendário para receber notificações sobre atividades importantes. Isso cria um calendário que permite o agendamento de tarefas e eventos relacionados ao cuidado dos idosos, garantindo que o cuidador seja lembrado das atividades no momento certo.</p>
+</li>
+<li>
+<p><strong>CRUD de Idosos:</strong> Os cuidadores formais, cuidadores informais e familiares podem gerenciar o cadastro de idosos no sistema, incluindo informações detalhadas sobre os idosos, como nome, idade, condições de saúde e preferências. Isso facilita o acompanhamento individualizado de cada idoso e o acesso rápido às informações de saúde e rotina específicas de cada um.</p>
+</li>
+</ol>
+<p>O microsserviço de Saúde é essencial para o acompanhamento eficaz da saúde dos idosos e a gestão de rotinas de cuidado, garantindo que as métricas de saúde sejam registradas e monitoradas, as rotinas sejam cumpridas e as notificações sejam usadas para manter todos os envolvidos informados sobre as atividades necessárias para a saúde e o bem-estar dos idosos.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.pat", "navigation.sections", "navigation.expand"], "search": "../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2515 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../sprints/sprint_1/review/">
+      
+      
+        <link rel="next" href="../post_mortem/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.2.8">
+    
+    
+      
+        <title>Relatorio de encerramento do projeto - GEROcuidado</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#fff" data-md-color-accent="#0B4D9B">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#relatorio-de-encerramento" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="GEROcuidado" class="md-header__button md-logo" aria-label="GEROcuidado" data-md-component="logo">
+      
+  <img src="../../assets/gero.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GEROcuidado
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Relatorio de encerramento do projeto
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fga-eps-mds/2024-1-GEROcuidado-Doc" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2024-1-GEROcuidado-Doc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/eap/" class="md-tabs__link">
+          
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../produto/prototipo/prototipo/" class="md-tabs__link">
+          
+  
+  Gestão do Projeto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../lean_inception/lean_inception/" class="md-tabs__link">
+          
+  
+  Lean Inception
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../dojos/git/" class="md-tabs__link">
+          
+  
+  Dojôs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../semanas/semana_1/resumo_semana_1/" class="md-tabs__link">
+          
+  
+  Semanas e sprints
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  Encerramento
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="GEROcuidado" class="md-nav__button md-logo" aria-label="GEROcuidado" data-md-component="logo">
+      
+  <img src="../../assets/gero.png" alt="logo">
+
+    </a>
+    GEROcuidado
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fga-eps-mds/2024-1-GEROcuidado-Doc" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2024-1-GEROcuidado-Doc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/eap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EAP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/quadro_de_disponibilidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de Disponibilidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/quadro_de_conhecimentos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de Conhecimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/quadro_de_pareamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de Pareamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/planoDeCusto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Gestão de Custos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/plano_de_ger_riscos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Gestão de Riscos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/plano_de_qualidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Qualidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/plano_de_comunicacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Comunicação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/metodologia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metodologias
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/padroes_da_comunidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Padrões da Comunidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Gestão do Projeto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Gestão do Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/prototipo/prototipo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/arquitetura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documento de Arquitetura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/doc_banco/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documento de Banco de Dados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/estilo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de Estilo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/guia_contribuicao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de Contribuição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoDoProjeto/codigo_de_conduta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Código de Conduta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monitoramento/EVM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EVM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lean Inception
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Lean Inception
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/lean_inception/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lean Inception
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/kickoff/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kick-off
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dojôs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Dojôs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dojos/git/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dojô Git/GitHub
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dojos/metodologias_ageis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dojô Metodologias Ágeis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dojos/guia_instalacao_wsl2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de instalação WSL2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semanas e sprints
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Semanas e sprints
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_1" >
+        
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_1/resumo_semana_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resumo semana 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_2/reuniao_geral_27_03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 27/03
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_3/reuniao_po_03_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 03/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_3/reuniao_po_04_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 04/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_4/reuniao_po_10_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 10/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_5" >
+        
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 5
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_5/reuniao_geral_19_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 19/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_5/reuniao_geral_24_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 24/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_5/reuniao_geral_17_07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 17/07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_6" >
+        
+          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas/semana_6/reuniao_geral_24_07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 24/07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sprints/sprint_1/planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sprints/sprint_1/review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Review
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Encerramento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Encerramento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Relatorio de encerramento do projeto
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Relatorio de encerramento do projeto
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de versões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backlog" class="md-nav__link">
+    Backlog
+  </a>
+  
+    <nav class="md-nav" aria-label="Backlog">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backlog-deprecado" class="md-nav__link">
+    Backlog Deprecado
+  </a>
+  
+    <nav class="md-nav" aria-label="Backlog Deprecado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planejado" class="md-nav__link">
+    Planejado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#executado" class="md-nav__link">
+    Executado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aceito-pelo-cliente" class="md-nav__link">
+    Aceito pelo Cliente
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backlog-novo" class="md-nav__link">
+    Backlog Novo
+  </a>
+  
+    <nav class="md-nav" aria-label="Backlog Novo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planejado_1" class="md-nav__link">
+    Planejado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#executado_1" class="md-nav__link">
+    Executado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aceito-pelo-cliente_1" class="md-nav__link">
+    Aceito pelo Cliente
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#situacao-atual-do-projeto" class="md-nav__link">
+    Situação atual do projeto
+  </a>
+  
+    <nav class="md-nav" aria-label="Situação atual do projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidades" class="md-nav__link">
+    Funcionalidades
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#as-is-do-projeto" class="md-nav__link">
+    As is do projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custo" class="md-nav__link">
+    Custo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qualidade" class="md-nav__link">
+    Qualidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#riscos" class="md-nav__link">
+    Riscos
+  </a>
+  
+    <nav class="md-nav" aria-label="Riscos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#riscos-planejados" class="md-nav__link">
+    Riscos planejados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acompanhamento-dos-riscos" class="md-nav__link">
+    Acompanhamento dos riscos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-dos-riscos" class="md-nav__link">
+    Análise dos riscos
+  </a>
+  
+    <nav class="md-nav" aria-label="Análise dos riscos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#riscos-individuais" class="md-nav__link">
+    Riscos individuais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risco-total" class="md-nav__link">
+    Risco total
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../post_mortem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Postmortem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de versões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backlog" class="md-nav__link">
+    Backlog
+  </a>
+  
+    <nav class="md-nav" aria-label="Backlog">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backlog-deprecado" class="md-nav__link">
+    Backlog Deprecado
+  </a>
+  
+    <nav class="md-nav" aria-label="Backlog Deprecado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planejado" class="md-nav__link">
+    Planejado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#executado" class="md-nav__link">
+    Executado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aceito-pelo-cliente" class="md-nav__link">
+    Aceito pelo Cliente
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backlog-novo" class="md-nav__link">
+    Backlog Novo
+  </a>
+  
+    <nav class="md-nav" aria-label="Backlog Novo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planejado_1" class="md-nav__link">
+    Planejado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#executado_1" class="md-nav__link">
+    Executado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aceito-pelo-cliente_1" class="md-nav__link">
+    Aceito pelo Cliente
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#situacao-atual-do-projeto" class="md-nav__link">
+    Situação atual do projeto
+  </a>
+  
+    <nav class="md-nav" aria-label="Situação atual do projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidades" class="md-nav__link">
+    Funcionalidades
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#as-is-do-projeto" class="md-nav__link">
+    As is do projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custo" class="md-nav__link">
+    Custo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qualidade" class="md-nav__link">
+    Qualidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#riscos" class="md-nav__link">
+    Riscos
+  </a>
+  
+    <nav class="md-nav" aria-label="Riscos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#riscos-planejados" class="md-nav__link">
+    Riscos planejados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acompanhamento-dos-riscos" class="md-nav__link">
+    Acompanhamento dos riscos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-dos-riscos" class="md-nav__link">
+    Análise dos riscos
+  </a>
+  
+    <nav class="md-nav" aria-label="Análise dos riscos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#riscos-individuais" class="md-nav__link">
+    Riscos individuais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risco-total" class="md-nav__link">
+    Risco total
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="relatorio-de-encerramento">Relatório de Encerramento</h1>
+<h2 id="historico-de-versoes">Histórico de versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autores</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>11/09/2024</td>
+<td>Abertura do documento</td>
+<td><a href="https://github.com/sebazac332">Sebastián Zuzunaga</a></td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>12/09/2024</td>
+<td>Adição de US executadas</td>
+<td><a href="https://github.com/sebazac332">Sebastián Zuzunaga</a></td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>19/09/2024</td>
+<td>Melhora organização do documento</td>
+<td><a href="https://github.com/AmandaNbr">Amanda Nobre</a></td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>22/09/2024</td>
+<td>Adição de informações</td>
+<td><a href="https://github.com/AmandaNbr">Amanda Nobre</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="introducao">Introdução</h2>
+<p>Este documento de encerramento apresentará uma análise comparativa entre o que foi planejado pela equipe e o que foi realizado durante o desenvolvimento do projeto. Serão abordados aspectos como backlog, custo, qualidade e riscos. Essa análise tem o objetivo de ilustrar a visão inicial da equipe em contraste com os resultados alcançados, além de servir como um guia para futuros desenvolvedores, oferecendo insights sobre o planejamento e a execução da solução proposta.</p>
+<h2 id="backlog">Backlog</h2>
+<h3 id="backlog-deprecado">Backlog Deprecado</h3>
+<p>Como citado no <a href="https://fga-eps-mds.github.io/2024-1-GEROcuidado-Doc/encerramento/post_mortem/">Post Mortem</a>, houve uma troca de contexto ao longo do projeto, dessa forma esta versão do backlog acabou sendo deprecada, porém a título de documentar e informar o que foi planejado inicialmente estarão descritas as US`s planejadas, executadas e aceitas.</p>
+<h4 id="planejado">Planejado</h4>
+<ul>
+<li>
+<p><strong>MVP</strong></p>
+<ul>
+<li>[US01] Criar perfil de usuário</li>
+<li>[US02] Editar informações pessoais</li>
+<li>[US03] Cadastrar, visualizar, editar e apagar perfis de idosos</li>
+<li>[US04] Cadastrar medicamentos e alimentos no perfil do idoso</li>
+<li>[US05] Cadastrar, visualizar, editar e apagar tarefas da rotina do idoso</li>
+<li>[US06] Cadastrar, visualizar, editar e apagar métricas de um idoso</li>
+</ul>
+</li>
+<li>
+<p><strong>Incremento</strong></p>
+<ul>
+<li>[US07] Criar, visualizar, editar e apagar postagens no fórum</li>
+<li>[US08] Tutorial explicativo das funcionalidades do aplicativo</li>
+<li>[US09] Moderção das publicações do fórum</li>
+</ul>
+</li>
+</ul>
+<h4 id="executado">Executado</h4>
+<ul>
+<li>[US01] Criar perfil de usuário</li>
+<li>[US04] Cadastrar medicamentos e alimentos no perfil do idoso</li>
+</ul>
+<h4 id="aceito-pelo-cliente">Aceito pelo Cliente</h4>
+<ul>
+<li>[US01] Criar perfil de usuário</li>
+<li>[US04] Cadastrar medicamentos e alimentos no perfil do idoso</li>
+</ul>
+<h3 id="backlog-novo">Backlog Novo</h3>
+<p>Foi necessária a criação de um novo backlog para contemplar o novo cenário em que o projeto se encontrava, este descreve a situação atual do projeto. Dessa forma as US`s desta versão dizem respeito a melhorias (EH) e ajuste de bugs (BUG):</p>
+<h4 id="planejado_1">Planejado</h4>
+<ul>
+<li><strong>MVP</strong><ul>
+<li>[EH01] Editar informações do perfil de usuário offline</li>
+<li>[EH02] Cadastrar medicamentos e alimentos no perfil do idoso</li>
+<li>[EH03] Cadastrar, visualizar, editar e apagar perfis de idosos offline</li>
+<li>[EH04] Cadastrar, visualizar, editar e apagar métricas de um idoso</li>
+<li>[EH05] Cadastrar, visualizar, editar e apagar tarefas da rotina do idoso</li>
+<li>[BUG01] Resolver bugs de experiencia de usuário</li>
+</ul>
+</li>
+</ul>
+<h4 id="executado_1">Executado</h4>
+<ul>
+<li>[EH01] Editar informações do perfil de usuário offline</li>
+<li>[EH03] Cadastrar, visualizar, editar e apagar perfis de idosos offline</li>
+<li>[EH04] Cadastrar, visualizar, editar e apagar métricas de um idoso</li>
+<li>[EH05] Cadastrar, visualizar, editar e apagar tarefas da rotina do idoso</li>
+<li>[BUG01] Resolver bugs de experiencia de usuário</li>
+</ul>
+<h4 id="aceito-pelo-cliente_1">Aceito pelo Cliente</h4>
+<ul>
+<li>Nenhuma</li>
+</ul>
+<h3 id="situacao-atual-do-projeto">Situação atual do projeto</h3>
+<p>Dessa forma, as funcionalidades que estão presentes na versão atual do app são as contempladas no <a href="https://fga-eps-mds.github.io/2023-2-GEROcuidado-Doc/encerramento/relatorio_encerramento/">relatório de encerramento</a> da equipe do semestre anterior (2023.2):</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/5df47cd6-71c6-4d82-8460-0cc7f5fd25f5" /></p>
+<p>Juntamente com as melhorias feitas no semestre atual deste projeto (2024.1), que fazem as funcionalidades que vieram do projeto de 2023.2 (<em>menos a interação com o fórum</em>) passarem a funcionar tanto com conexão a internet, quanto sem conexão. 
+Esse requisito surgiu após conversar com o cliente e perceber que houveram dificuldades na homologação do app em casas de repouso que não tinham internet boa e/ou sinal para 3g/4g.</p>
+<h4 id="funcionalidades">Funcionalidades</h4>
+<p>No projeto, as funcionalidades presentes podem ter três características:</p>
+<ol>
+<li>Ser Offline</li>
+<li>Ser Apenas Online</li>
+<li>
+<p>Ter Sincronização</p>
+</li>
+<li>
+<p>Ser Offline</p>
+</li>
+</ol>
+<p>Uma funcionalidade ser Offline, significa que a mesma funciona no dispositivo do usuário mesmo sem conexão com a Internet. Isto é, o usuário é capaz de utiliza-la em sua totalidade estando offline.</p>
+<ul>
+<li>Ser Apenas Online</li>
+</ul>
+<p>Uma funcionalidade ser apenas Online, significa que a funciona no dispositivo do usuário apenas quando há internet. Uma vez interrompida a conexão, o usuário não será mais capaz de interagir com aquela parte do sistema.</p>
+<ul>
+<li>Ter Sincronização</li>
+</ul>
+<p>Uma funcionalidade possuir sincronização significa que os dados que são persistidos no dispositivo do usuário, são enviados para a nuvem, isto é, para os micro-serviços.</p>
+<p>No semestre anterior o aplicativo funcionava apenas online. Então, o banco de dados que persistia o que o usuário cadastrava ficava na "nuvem". Com a introdução da possibilidade da funcionalidade ser offline, surgiu também essa necessidade de sincronizar.</p>
+<p>:warning: <strong>Observação:</strong> A sincronização nesse ponto do projeto não traz nenhum benefício. Esse benefício só será observado quando houver compartilhamento de informações entre contas, ou portabilidade de contas entre aparelhos. </p>
+<h4 id="as-is-do-projeto"><em>As is</em> do projeto</h4>
+<p>Abaixo está a relação de funcionalidades do aplicativo e seus meios de funcionamento.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Funcionalidade</th>
+<th style="text-align: center;">Online e Offline</th>
+<th style="text-align: center;">Apenas Online</th>
+<th style="text-align: center;">Sincronização</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Login</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td style="text-align: center;">CRUD de Idoso</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">CRUD de Rotina (tarefa)</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">CRUD de Métricas</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Forum</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="custo">Custo</h2>
+<iframe src="https://docs.google.com/spreadsheets/d/1AfbnaR35DlNhQVRTdZQjuMkAz1KyYZplQHarhOnHLr0/pubhtml?widget=true&amp;headers=false"width="100%" width= "100" height="500" frameborder="1" scrolling="no"></iframe>
+
+<h2 id="qualidade">Qualidade</h2>
+<p>Com o objetivo de manter a qualidade do código do trabalho, foram realizados diversos testes, cada um deles garantindo o correto funcionamento de um componente do trabalho. Atualmente o projeto tem uma cobertura de teste de mais de 80% no repositório do FrontEnd e mais de 90% nos repositórios dos serviços.</p>
+<h2 id="riscos">Riscos</h2>
+<h3 id="riscos-planejados">Riscos planejados</h3>
+<table>
+<thead>
+<tr>
+<th>Risco</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R01</td>
+<td>Dificuldade com as tecnologias definidas</td>
+</tr>
+<tr>
+<td>R02</td>
+<td>Saída de algum integrante do projeto</td>
+</tr>
+<tr>
+<td>R03</td>
+<td>Falta de participação de algum integrante do projeto</td>
+</tr>
+<tr>
+<td>R04</td>
+<td>Falta de integração da equipe</td>
+</tr>
+<tr>
+<td>R05</td>
+<td>Divergência nos horários disponíveis dos integrantes</td>
+</tr>
+<tr>
+<td>R06</td>
+<td>Alteração no escopo do projeto</td>
+</tr>
+<tr>
+<td>R07</td>
+<td>Integrante com problema de saúde</td>
+</tr>
+<tr>
+<td>R08</td>
+<td>Indisponibilidade do cliente</td>
+</tr>
+<tr>
+<td>R09</td>
+<td>Falta de disponibilização de releases para o cliente testar</td>
+</tr>
+<tr>
+<td>R10</td>
+<td>Falta de participação durante as reuniões</td>
+</tr>
+<tr>
+<td>R11</td>
+<td>Sobrecarga de membros da equipe</td>
+</tr>
+<tr>
+<td>R12</td>
+<td>Falha de equipamento</td>
+</tr>
+<tr>
+<td>R13</td>
+<td>Dependência entre atividades</td>
+</tr>
+<tr>
+<td>R14</td>
+<td>Problemas com a infraestrutura de rede</td>
+</tr>
+<tr>
+<td>R15</td>
+<td>Dificuldade na adaptação a novas ferramentas</td>
+</tr>
+</tbody>
+</table>
+<h3 id="acompanhamento-dos-riscos">Acompanhamento dos riscos</h3>
+<iframe width="700" height="760" src="https://docs.google.com/spreadsheets/d/111wcWXgaBPPJazR3fM-vaDZLNRwU9FPkP42Xga_8N6s/edit?usp=sharing"></iframe>
+
+<h3 id="analise-dos-riscos">Análise dos riscos</h3>
+<h4 id="riscos-individuais">Riscos individuais</h4>
+<p><img alt="image" src="https://github.com/user-attachments/assets/1a89db3a-90ec-446e-993a-ad0c927a09b1" /></p>
+<p>A partir do gráfico dos totais individuais por sprint, é o notável que até a sprint 6 havia um quadro estável, apesar de já haver indícios de riscos altos. Porém na sprint 7 e o 8 é perceptível um grande salto, praticamente todos os riscos aumentaram, com foco em 5 em específico: R03, R04, R09, R10 e R11.</p>
+<ul>
+<li>R03   | Falta de participação de algum integrante do projeto </li>
+<li>R04   | Falta de integração da equipe          </li>
+<li>R09   | Falta de disponibilização de releases para o cliente testar</li>
+<li>R10   | Falta de participação durante as reuniões    </li>
+<li>R11   | Sobrecarga de membros da equipe</li>
+</ul>
+<h4 id="risco-total">Risco total</h4>
+<p><img alt="image" src="https://github.com/user-attachments/assets/52bd4059-c3d1-4921-bed0-e090aaa68822" /></p>
+<p>Ao analisar o gráfico geral da probabilidade dos riscos, observa-se um aumento significativo da Sprint 7 para a Sprint 8. Esse aumento abrupto pode é preocupante e pode indicar que o monitoramento dos riscos pode não ter sido completamente eficaz ou estava enviesado. 
+O ideal seria um crescimento mais gradual e controlado, refletindo uma gestão de riscos mais equilibrada. O salto substancial pode sugerir que novos problemas surgiram ou que questões importantes foram subestimadas anteriormente.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.pat", "navigation.sections", "navigation.expand"], "search": "../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+    
+  </body>
+</html>
