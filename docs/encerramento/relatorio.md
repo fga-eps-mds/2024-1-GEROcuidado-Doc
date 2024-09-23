@@ -1,4 +1,3 @@
-
 # Relatório de Encerramento
 
 ## Histórico de versões
@@ -8,6 +7,7 @@
 | 1.0    | 11/09/2024 | Abertura do documento | [Sebastián Zuzunaga](https://github.com/sebazac332) |
 | 1.1    | 12/09/2024 | Adição de US executadas | [Sebastián Zuzunaga](https://github.com/sebazac332) |
 | 1.2    | 19/09/2024 | Melhora organização do documento | [Amanda Nobre](https://github.com/AmandaNbr) |
+| 1.3    | 22/09/2024 | Adição de informações | [Amanda Nobre](https://github.com/AmandaNbr) |
 
 ## Introdução
 
@@ -69,20 +69,48 @@ Foi necessária a criação de um novo backlog para contemplar o novo cenário e
 ### Situação atual do projeto
 
 Dessa forma, as funcionalidades que estão presentes na versão atual do app são as contempladas no [relatório de encerramento](https://fga-eps-mds.github.io/2023-2-GEROcuidado-Doc/encerramento/relatorio_encerramento/) da equipe do semestre anterior (2023.2):
+
 ![image](https://github.com/user-attachments/assets/5df47cd6-71c6-4d82-8460-0cc7f5fd25f5)
+
 Juntamente com as melhorias feitas no semestre atual deste projeto (2024.1), que fazem as funcionalidades que vieram do projeto de 2023.2 (*menos a interação com o fórum*) passarem a funcionar tanto com conexão a internet, quanto sem conexão. 
 Esse requisito surgiu após conversar com o cliente e perceber que houveram dificuldades na homologação do app em casas de repouso que não tinham internet boa e/ou sinal para 3g/4g.
 
-Então, no app atualmente há:
 
-| Funcionalidade                                            | Com Conexão | Sem Conexão |
-|-----------------------------------------------------------|-------------|-------------|
-| Cadastrar perfil de usuário e logar na aplicação           | X           |             |
-| Editar informações do perfil de usuário                    | X           | X           |
-| Cadastrar, visualizar, editar e apagar perfis              | X           | X           |
-| Cadastrar, visualizar, editar e apagar métricas de um idoso| X           | X           |
-| Cadastrar, visualizar, editar e apagar tarefas do idoso    | X           | X           |
-| Fórum (com moderação)                                      | X           |             |
+#### Funcionalidades
+
+No projeto, as funcionalidades presentes podem ter três características:
+
+1. Ser Offline
+2. Ser Apenas Online
+3. Ter Sincronização
+
+- Ser Offline
+
+Uma funcionalidade ser Offline, significa que a mesma funciona no dispositivo do usuário mesmo sem conexão com a Internet. Isto é, o usuário é capaz de utiliza-la em sua totalidade estando offline.
+
+- Ser Apenas Online
+
+Uma funcionalidade ser apenas Online, significa que a funciona no dispositivo do usuário apenas quando há internet. Uma vez interrompida a conexão, o usuário não será mais capaz de interagir com aquela parte do sistema.
+
+- Ter Sincronização
+
+Uma funcionalidade possuir sincronização significa que os dados que são persistidos no dispositivo do usuário, são enviados para a nuvem, isto é, para os micro-serviços.
+
+No semestre anterior o aplicativo funcionava apenas online. Então, o banco de dados que persistia o que o usuário cadastrava ficava na "nuvem". Com a introdução da possibilidade da funcionalidade ser offline, surgiu também essa necessidade de sincronizar.
+
+:warning: **Observação:** A sincronização nesse ponto do projeto não traz nenhum benefício. Esse benefício só será observado quando houver compartilhamento de informações entre contas, ou portabilidade de contas entre aparelhos. 
+
+#### _As is_ do projeto
+
+Abaixo está a relação de funcionalidades do aplicativo e seus meios de funcionamento.
+
+| Funcionalidade | Online e Offline | Apenas Online | Sincronização | 
+|:--------------:| :-----: | :-----------: | :-----------: |
+| Login          |         |      X        | X |
+| CRUD de Idoso    |    X    | | |
+| CRUD de Rotina (tarefa) | X | | |
+| CRUD de Métricas | X | | |
+| Forum | | X | |
 
 ## Custo
 
