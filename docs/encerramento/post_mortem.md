@@ -1,4 +1,3 @@
-
 # Postmortem 
 
 ## Histórico de versões
@@ -7,6 +6,7 @@
 | ------ | ---------- | --------------------- | ----------- |
 | 1.0    | 12/09/2024 | Abertura do documento | [Sebastián Zuzunaga](https://github.com/sebazac332) |
 | 1.1    | 18/09/2024 | Adição de informações | [Amanda Nobre](https://github.com/AmandaNbr) |
+| 1.2    | 22/09/2024 | Adição de informações | [Amanda Nobre](https://github.com/AmandaNbr) |
 
 ## Introdução
 
@@ -51,7 +51,14 @@ Para fornecer uma base inicial aos colegas do próximo semestre, a equipe compil
 ![image](https://github.com/user-attachments/assets/6d67e7d2-abb9-4233-8415-783a11c71cfe)
 
 - Funcionalidade de fazer download das métricas e rotina do idoso, o ideal seria fazer de forma que fizesse o download em pdf ou exportasse as informações para serem compartilhadas de forma organizada, entre um determinado intervalo de tempo. Ex: Baixar métricas de pressão sanguínea do último mês; Baixar todas as métricas da última semana.
-- **TO-DO: Explicar a parte do endpoint único e como pode ser melhorado**
+- No semestre de 2023.2, a comunicação entre o APP e os micro serviços era feita da maneira mais comum, isto é, cada API tendo seu conjunto de endpoints, cada um deles representando uma das ações do CRUD. 
+Porém, como foi adotada a biblioteca [WatermelonDB](https://watermelondb.dev/docs) para resolver o problema do App Offline, um dos requisitos é ter um único endpoint geral que responda no _formato especificado pela biblioteca_. Pode-se conferir mais sobre isso na [documentação de sincronização](https://watermelondb.dev/docs/Sync/Intro) da biblioteca.
+Neste semetre, foi adotado o modelo da propria biblioteca para realizar a sincronização com usuários, mas também existe a possibilidade de manter o padrão CRUD da API, mas a sincronização precisaria ser feita na unha, abandonando quase que totalmente esse módulo da biblioteca.
+Porém, caso se deseje utilizar a biblioteca 100% de acordo com sua documentação, é necessário que essa visão de micro-serviços seja desfeita para o App. O App pararia de enxergar micro-serviços, e teria que enxergar somente um grande e único back-end que responde e em um único grande endpoint de atualização (desconsiderando os endpoints de autenticação, claro). **Então, seria necessário:**
+	- Ter um endpoint geral que responda todas as criações/atualizações/deleções que ocorreram no servidor. Aqui quem sabe faça sentido ter um micro-serviço central que orquestre as chamadas pros demais micro-serviços e cuspa o resultado merjado para o Front;
+	- No Front (App), descobrir em quais momentos realizar a chamada pra sincronização;
+	- Parar de receber todas as informações dos bancos dos micro-serviços e passar a receber apenas aquelas que o usuário deveria ver.
+
 
 ## Recomendações
 
